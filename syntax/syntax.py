@@ -7,14 +7,11 @@ async def syntax(ctx, cmd):
         data = urllib.request.urlopen("https://raw.githubusercontent.com/NFLD99/Rise-Commands/main/syntax/cmdSyntaxList.json").read()
         output = json.loads(data)
         for i in output[cmd.lower()]:
-            i1= str(i)
-            i2= i1.replace("{", "")
-            i3= i2.replace("}", "")
-            i4= i3.replace("\', \'", "\'\n\'")
-            theSyntax= "```py\n" + cmd + ":\n" + i4 + "\n```"
+            i1 = str(i).replace("{", "").replace("}", "").replace("\', \'", "\'\n\'")
+            theSyntax = f"```py\n{cmd}:\n{i1}\n```"
             await ctx.send(theSyntax, delete_after=15)
             print(theSyntax)
         # await ctx.send(syntaxFull)
     except Exception as e:
         print(str(e))
-        await ctx.send("Command Not Found!", delete_after=15)
+        await ctx.send(f"Command `{cmd}` not found!", delete_after=15)
