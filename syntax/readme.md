@@ -11,26 +11,14 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE COMMAND -->
 ## About The Command
-
-[![Output Screenshot][Output-screenshot]](https://i.imgur.com/ilXSrkL.png)
-
 This command helps with finding the syntax to various commands in rise.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-### Installation
+## Installation
 
 1. Download the .py file and playce it in your rise scrips folder
 2. Restart rise
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -39,6 +27,7 @@ Command:
 [prefix]syntax [command]
 ```
 Output: [using avatar as an example]
-[![Output Screenshot][Output-screenshot]](https://i.imgur.com/ilXSrkL.png)
+
+[Output Screenshot](https://i.imgur.com/ilXSrkL.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
