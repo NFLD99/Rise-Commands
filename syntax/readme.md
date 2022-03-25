@@ -28,6 +28,6 @@ Command:
 ```
 Output: [using avatar as an example]
 
-[Output Screenshot](https://i.imgur.com/ilXSrkL.png)
+![Output Screenshot](https://i.imgur.com/ilXSrkL.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
