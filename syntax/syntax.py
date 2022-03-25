@@ -4,9 +4,9 @@ async def syntax(ctx, cmd):
     await asyncio.sleep(1)
     print(cmd)
     try:
-        with open('Scripts/syntaxs.json', 'r') as f:
-            data = json.load(f)
-            for i in data[cmd]:
+        data = urllib.request.urlopen("https://raw.githubusercontent.com/NFLD99/Rise-Commands/main/syntax/cmdSyntaxList.json").read()
+        output = json.loads(data)
+            for i in output[cmd]:
                 i1= str(i)
                 i2= i1.replace("{", "")
                 i3= i2.replace("}", "")
