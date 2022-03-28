@@ -13,12 +13,12 @@
 
 <!-- ABOUT THE COMMAND -->
 ## About The Command
-This command helps with finding the syntax to various commands in rise.
+This command helps with finding the syntax to various commands in Rise.
 
 ## Installation
 
-1. Download the .py file and playce it in your rise scrips folder
-2. Restart rise
+1. Download the .py file and place it in your Rise scripts folder
+3. Restart Rise
 
 <!-- USAGE EXAMPLES -->
 ## Usage
