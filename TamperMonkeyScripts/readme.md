@@ -34,6 +34,7 @@ Login With Token:
 
 ## I Don't Want Ro Use Tampermonkey
 run the below line in devtools console to get your token
+
 `(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
