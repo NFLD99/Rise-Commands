@@ -21,6 +21,9 @@ This command helps with finding the syntax to various commands in Rise.
 2. Install the [script](https://github.com/NFLD99/Rise-Commands/raw/main/TamperMonkeyScripts/userscript.user.js)
 3. Login To [Discord.com](https://discord.com/login)
 
+## Video Guide
+[![Video Guide](https://img.youtube.com/vi/wRf6-BAS6vE/0.jpg)](https://www.youtube.com/watch?v=wRf6-BAS6vE)
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 Get Token:
