@@ -12,4 +12,4 @@ async def srpc(ctx, name):
             cfgsf.write(contents)
     except:
         await ctx.send('Error:'+ sys.exc_info()[0])
-    await ctx.send('Rpc Updated.')
+    await ctx.send('Rpc Updated. Please Restart Rise.')
