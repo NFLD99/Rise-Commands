@@ -1,2582 +1,1774 @@
 {
-    "sfw": [
-        {
-            "Syntax": "",
-            "Disc": "Sfw commands"
-        }
-    ],
-    "raid": [
-        {
-            "Syntax": "",
-            "Disc": "Raid commands"
-        }
-    ],
-    "tools": [
-        {
-            "Syntax": "",
-            "Disc": "Tool commands"
-        }
-    ],
-    "nsfw": [
-        {
-            "Syntax": "",
-            "Disc": "Nsfw commands"
-        }
-    ],
-    "image": [
-        {
-            "Syntax": "",
-            "Disc": "Image commands"
-        }
-    ],
-    "abuse": [
-        {
-            "Syntax": "",
-            "Disc": "Abuse commands"
-        }
-    ],
-    "admin": [
-        {
-            "Syntax": "",
-            "Disc": "Admin commands"
-        }
-    ],
-    "design": [
-        {
-            "Syntax": "",
-            "Disc": "Design commands"
-        }
-    ],
-    "fun": [
-        {
-            "Syntax": "[Page]",
-            "Disc": "Fun commands"
-        }
-    ],
-    "text": [
-        {
-            "Syntax": "[Page]",
-            "Disc": "Text commands"
-        }
-    ],
-    "misc": [
-        {
-            "Syntax": "[Page]",
-            "Disc": "Misc commands"
-        }
-    ],
-    "payment": [
-        {
-            "Syntax": "",
-            "Disc": "Payment commands"
-        }
-    ],
-    "useful": [
-        {
-            "Syntax": "[Page]",
-            "Disc": "Useful commands"
-        }
-    ],
-    "settings": [
-        {
-            "Syntax": "",
-            "Disc": "Displays active settings"
-        }
-    ],
-    "protection": [
-        {
-            "Syntax": "",
-            "Disc": "Protection commands"
-        }
-    ],
-    "customcmds": [
-        {
-            "Syntax": "",
-            "Disc": "Custom commands"
-        }
-    ],
-    "account": [
-        {
-            "Syntax": "[Page]",
-            "Disc": "Account commands"
-        }
-    ],
-    "search": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Find commands with given text"
-        }
-    ],
-    "cat": [
-        {
-            "Syntax": "",
-            "Disc": "Random cat image"
-        }
-    ],
-    "fox": [
-        {
-            "Syntax": "",
-            "Disc": "Random fox image"
-        }
-    ],
-    "dog": [
-        {
-            "Syntax": "",
-            "Disc": "Random dog image"
-        }
-    ],
-    "bird": [
-        {
-            "Syntax": "",
-            "Disc": "Random bird image"
-        }
-    ],
-    "fish": [
-        {
-            "Syntax": "",
-            "Disc": "Cute fish saying hey"
-        }
-    ],
-    "foxfact": [
-        {
-            "Syntax": "",
-            "Disc": "Random fox facts"
-        }
-    ],
-    "catfact": [
-        {
-            "Syntax": "",
-            "Disc": "Random cat facts"
-        }
-    ],
-    "aww": [
-        {
-            "Syntax": "",
-            "Disc": "Send awwing image"
-        }
-    ],
-    "floof": [
-        {
-            "Syntax": "",
-            "Disc": "Random floof animal"
-        }
-    ],
-    "dogfact": [
-        {
-            "Syntax": "",
-            "Disc": "Random dog facts"
-        }
-    ],
-    "koalafact": [
-        {
-            "Syntax": "",
-            "Disc": "Random koala facts"
-        }
-    ],
-    "pandafact": [
-        {
-            "Syntax": "",
-            "Disc": "Random panda facts"
-        }
-    ],
-    "genavatar": [
-        {
-            "Syntax": "",
-            "Disc": "Generate a weeb avatar"
-        }
-    ],
-    "pat": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Mention user to pat them"
-        }
-    ],
-    "animeme": [
-        {
-            "Syntax": "",
-            "Disc": "Send a random weeb meme"
-        }
-    ],
-    "hug": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Mention user to hug them"
-        }
-    ],
-    "kiss": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Mention user to kiss them"
-        }
-    ],
-    "slap": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Mention user to slap them"
-        }
-    ],
-    "tickle": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Mention user to tickle them"
-        }
-    ],
-    "wink": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Mention user to wink at them"
-        }
-    ],
-    "cuddle": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Mention user to cuddle them"
-        }
-    ],
-    "searchavatar": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Mention user to reverse search their avatar"
-        }
-    ],
-    "rleave": [
-        {
-            "Syntax": "",
-            "Disc": "Make all raid tokens leave the server"
-        }
-    ],
-    "rjoin": [
-        {
-            "Syntax": "<inviteregex>",
-            "Disc": "Make all raid tokens join server"
-        }
-    ],
-    "rfriendrequest": [
-        {
-            "Syntax": "<userid>",
-            "Disc": "Make all raid tokens add spam friend request"
-        }
-    ],
-    "rcrash": [
-        {
-            "Syntax": "<channel ID> <amount>",
-            "Disc": "Crash channel with tokens"
-        }
-    ],
-    "rspam": [
-        {
-            "Syntax": "<channel ID> <amount> <message>",
-            "Disc": "Make all raid tokens spam chat"
-        }
-    ],
-    "rreact": [
-        {
-            "Syntax": "<messageid> <channelid> <emoji>",
-            "Disc": "Make all raid tokens react to message"
-        }
-    ],
-    "rremovefriendrequest": [
-        {
-            "Syntax": "<userid>",
-            "Disc": "Make all raid tokens remove spam friend request"
-        }
-    ],
-    "rmassping": [
-        {
-            "Syntax": "[amount]",
-            "Disc": "All raid tokens mass ping users you must use this in the server to work"
-        }
-    ],
-    "crawl": [
-        {
-            "Syntax": "<site>",
-            "Disc": "Crawls site links"
-        }
-    ],
-    "fakeinfo": [
-        {
-            "Syntax": "",
-            "Disc": "To generate fake info"
-        }
-    ],
-    "pingip": [
-        {
-            "Syntax": "<ip>",
-            "Disc": "Check if an ip is up"
-        }
-    ],
-    "urlshorten": [
-        {
-            "Syntax": "<link>",
-            "Disc": "Shortens url"
-        }
-    ],
-    "cfr": [
-        {
-            "Syntax": "<link>",
-            "Disc": "Resolve cloudflare ips"
-        }
-    ],
-    "portscan": [
-        {
-            "Syntax": "<ip>",
-            "Disc": "Check ports of an ip"
-        }
-    ],
-    "ip": [
-        {
-            "Syntax": "<address>",
-            "Disc": "Do a quick ip lookup"
-        }
-    ],
-    "whois": [
-        {
-            "Syntax": "<domain>",
-            "Disc": "Quick whois lookup"
-        }
-    ],
-    "whatboy": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Generate a user dox"
-        }
-    ],
-    "ip2skype": [
-        {
-            "Syntax": "<ip>",
-            "Disc": "Get the users skype name"
-        }
-    ],
-    "linkbackup": [
-        {
-            "Syntax": "<link>",
-            "Disc": "Create site live backup"
-        }
-    ],
-    "halftoken": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Get half the users token"
-        }
-    ],
-    "webheaders": [
-        {
-            "Syntax": "<domain>",
-            "Disc": "Retrieve site headers"
-        }
-    ],
-    "phonelookup": [
-        {
-            "Syntax": "<number>",
-            "Disc": "Gather numbers info"
-        }
-    ],
-    "reputation": [
-        {
-            "Syntax": "<link>",
-            "Disc": "Check if a site is safe to visit"
-        }
-    ],
-    "subdomains": [
-        {
-            "Syntax": "<link>",
-            "Disc": "Gather subdomains on link"
-        }
-    ],
-    "skyperesolve": [
-        {
-            "Syntax": "<username>",
-            "Disc": "Resolve the users ip"
-        }
-    ],
-    "domainhistory": [
-        {
-            "Syntax": "<domain>",
-            "Disc": "Past ip s on a domain"
-        }
-    ],
-    "firewalldetect": [
-        {
-            "Syntax": "<domain>",
-            "Disc": "Detect ddos protection"
-        }
-    ],
-    "proxscrape": [
-        {
-            "Syntax": "<amount> <type>",
-            "Disc": "Scrape elite proxies"
-        }
-    ],
-    "tokengrabber": [
-        {
-            "Syntax": "<webhook>",
-            "Disc": "Create a token logger for a victim"
-        }
-    ],
-    "screenshot": [
-        {
-            "Syntax": "<link>",
-            "Disc": "Sends a screenshot of the inputted website"
-        }
-    ],
-    "yaoi": [
-        {
-            "Syntax": "",
-            "Disc": "Gen anime yaoi"
-        }
-    ],
-    "yiff": [
-        {
-            "Syntax": "",
-            "Disc": "Some yiff for you"
-        }
-    ],
-    "hass": [
-        {
-            "Syntax": "",
-            "Disc": "Create anime ass"
-        }
-    ],
-    "holo": [
-        {
-            "Syntax": "",
-            "Disc": "Some holo hentai"
-        }
-    ],
-    "trap": [
-        {
-            "Syntax": "",
-            "Disc": "Send a trap image"
-        }
-    ],
-    "neko": [
-        {
-            "Syntax": "",
-            "Disc": "Send a neko image"
-        }
-    ],
-    "hanal": [
-        {
-            "Syntax": "",
-            "Disc": "Hentai anime anal"
-        }
-    ],
-    "anal": [
-        {
-            "Syntax": "",
-            "Disc": "Random anal image"
-        }
-    ],
-    "porn": [
-        {
-            "Syntax": "",
-            "Disc": "Random porn image"
-        }
-    ],
-    "coffee": [
-        {
-            "Syntax": "",
-            "Disc": "Girl drinking coffee"
-        }
-    ],
-    "femdom": [
-        {
-            "Syntax": "",
-            "Disc": "Send a fem story"
-        }
-    ],
-    "hneko": [
-        {
-            "Syntax": "",
-            "Disc": "Send a hneko image"
-        }
-    ],
-    "thigh": [
-        {
-            "Syntax": "",
-            "Disc": "Random thighs image"
-        }
-    ],
-    "pussy": [
-        {
-            "Syntax": "",
-            "Disc": "Random pussy image"
-        }
-    ],
-    "boobs": [
-        {
-            "Syntax": "",
-            "Disc": "Random boobs image"
-        }
-    ],
-    "gasm": [
-        {
-            "Syntax": "",
-            "Disc": "Random hentai gasms"
-        }
-    ],
-    "hthigh": [
-        {
-            "Syntax": "",
-            "Disc": "Random anime thighs"
-        }
-    ],
-    "kanna": [
-        {
-            "Syntax": "",
-            "Disc": "Random kanna images"
-        }
-    ],
-    "fuck": [
-        {
-            "Syntax": "",
-            "Disc": "Fuck user to fuck them"
-        }
-    ],
-    "gonewild": [
-        {
-            "Syntax": "",
-            "Disc": "Insane gonewild porn"
-        }
-    ],
-    "tentacle": [
-        {
-            "Syntax": "",
-            "Disc": "Weird ass tentacle porn"
-        }
-    ],
-    "hentai": [
-        {
-            "Syntax": "",
-            "Disc": "Send a random hentai image"
-        }
-    ],
-    "hpussy": [
-        {
-            "Syntax": "",
-            "Disc": "Generate some hentai pussy"
-        }
-    ],
-    "spank": [
-        {
-            "Syntax": "",
-            "Disc": "Generate some hentai spanking"
-        }
-    ],
-    "rule34": [
-        {
-            "Syntax": "",
-            "Disc": "Send a post from the rule34 site"
-        }
-    ],
-    "blowjob": [
-        {
-            "Syntax": "",
-            "Disc": "Generate some hentai blowjobs"
-        }
-    ],
-    "gru": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Gru meme"
-        }
-    ],
-    "seal": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Seal meme"
-        }
-    ],
-    "clyde": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Clyde meme"
-        }
-    ],
-    "troop": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Troop meme"
-        }
-    ],
-    "trump": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Trump meme"
-        }
-    ],
-    "bunny": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Bunny meme"
-        }
-    ],
-    "bernie": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Bernie meme"
-        }
-    ],
-    "stonks": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Stonks meme"
-        }
-    ],
-    "hungry": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Hungry meme"
-        }
-    ],
-    "pikachu": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Pikachu meme"
-        }
-    ],
-    "uno": [
-        {
-            "Syntax": "<text1> <text2>",
-            "Disc": "Uno meme"
-        }
-    ],
-    "skeleton": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Skeleton meme"
-        }
-    ],
-    "doge": [
-        {
-            "Syntax": "<text> <text2>",
-            "Disc": "Doge meme"
-        }
-    ],
-    "chad": [
-        {
-            "Syntax": "<text> <text2>",
-            "Disc": "Chad meme"
-        }
-    ],
-    "yoda": [
-        {
-            "Syntax": "<text> <text2>",
-            "Disc": "Yoda meme"
-        }
-    ],
-    "trade": [
-        {
-            "Syntax": "<text> <text2>",
-            "Disc": "Trade meme"
-        }
-    ],
-    "drake": [
-        {
-            "Syntax": "<text> <text2>",
-            "Disc": "Drake meme"
-        }
-    ],
-    "supremacy": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Supremacy meme"
-        }
-    ],
-    "spongebob": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Spongebob meme"
-        }
-    ],
-    "woahjamal": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Woahjamal meme"
-        }
-    ],
-    "buttons": [
-        {
-            "Syntax": "<text> <text2>",
-            "Disc": "Buttons meme"
-        }
-    ],
-    "freeway": [
-        {
-            "Syntax": "<text> <text2>",
-            "Disc": "Freeway meme"
-        }
-    ],
-    "achievement": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Achievement meme"
-        }
-    ],
-    "mcahievement": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Mcachievement meme"
-        }
-    ],
-    "changemymind": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Changemymind meme"
-        }
-    ],
-    "presidentialalert": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Presidentialalert meme"
-        }
-    ],
-    "allmyhomieshate": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Allmyhomieshate meme"
-        }
-    ],
-    "spongesmirk": [
-        {
-            "Syntax": "<text> <text2>",
-            "Disc": "Spongesmirk meme"
-        }
-    ],
-    "crashcall": [
-        {
-            "Syntax": "",
-            "Disc": "Crash the call youre in"
-        }
-    ],
-    "massban": [
-        {
-            "Syntax": "",
-            "Disc": "Massively ban the server"
-        }
-    ],
-    "masskick": [
-        {
-            "Syntax": "",
-            "Disc": "Massively kick the server"
-        }
-    ],
-    "servernuke": [
-        {
-            "Syntax": "",
-            "Disc": "Completely ruin a server"
-        }
-    ],
-    "gpingall": [
-        {
-            "Syntax": "",
-            "Disc": "Starts pinging random people"
-        }
-    ],
-    "emojinuke": [
-        {
-            "Syntax": "",
-            "Disc": "Delete all emojis in a server"
-        }
-    ],
-    "channelnuke": [
-        {
-            "Syntax": "",
-            "Disc": "Delete all channels in a server"
-        }
-    ],
-    "rolenuke": [
-        {
-            "Syntax": "",
-            "Disc": "Massively delete roles in a server"
-        }
-    ],
-    "deletewebhook": [
-        {
-            "Syntax": "<url>",
-            "Disc": "Deletes given webhook"
-        }
-    ],
-    "renameroles": [
-        {
-            "Syntax": "<name>",
-            "Disc": "Rename all roles in a server"
-        }
-    ],
-    "massroles": [
-        {
-            "Syntax": "<amount> <name>",
-            "Disc": "Spam create roles"
-        }
-    ],
-    "renamegroups": [
-        {
-            "Syntax": "<name>",
-            "Disc": "Rename all groups youre in"
-        }
-    ],
-    "renamechannels": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Rename channels in a server"
-        }
-    ],
-    "clearalldms": [
-        {
-            "Syntax": "",
-            "Disc": "Deletes every individual dm with everyone"
-        }
-    ],
-    "massdm": [
-        {
-            "Syntax": "<delay> <message>",
-            "Disc": "Message the whole server"
-        }
-    ],
-    "masschannels": [
-        {
-            "Syntax": "<name> <amount>",
-            "Disc": "Spam create channels"
-        }
-    ],
-    "crashwebhook": [
-        {
-            "Syntax": "<url> <amount>",
-            "Disc": "Crashes channel with webhook"
-        }
-    ],
-    "spamwebhook": [
-        {
-            "Syntax": "<url> <amount> <message>",
-            "Disc": "Spam a given webhook"
-        }
-    ],
-    "serverspam": [
-        {
-            "Syntax": "<amount> <name>",
-            "Disc": "Creates servers on your account"
-        }
-    ],
-    "hentaihookspam": [
-        {
-            "Syntax": "<url> <amount> <message>",
-            "Disc": "Spams webhook with hentai pfps"
-        }
-    ],
-    "proxyflood": [
-        {
-            "Syntax": "<amount> <threads> <url>",
-            "Disc": "Floods a site with elite proxies recommended 500 threads"
-        }
-    ],
-    "creategroups": [
-        {
-            "Syntax": "[name]",
-            "Disc": "Creates many groups and saves them into a txt use groupspam user id afterwards"
-        }
-    ],
-    "deleterole": [
-        {
-            "Syntax": "<role>",
-            "Disc": "Deletes the role"
-        }
-    ],
-    "nuke": [
-        {
-            "Syntax": "",
-            "Disc": "Nuke a channel clean and fresh"
-        }
-    ],
-    "unmute": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Removes mute on a user"
-        }
-    ],
-    "ban": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Ban a member when mentioned"
-        }
-    ],
-    "kick": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Kick a member when mentioned"
-        }
-    ],
-    "removenick": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Resets the users nickname"
-        }
-    ],
-    "softban": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Bans and unbans mentioned user"
-        }
-    ],
-    "slowmode": [
-        {
-            "Syntax": "<time>",
-            "Disc": "Put slowmode on the channel"
-        }
-    ],
-    "giverole": [
-        {
-            "Syntax": "<user> <role>",
-            "Disc": "Give mentioned user a role"
-        }
-    ],
-    "mute": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Deletes any messages the user sends"
-        }
-    ],
-    "nickmember": [
-        {
-            "Syntax": "<user> <nick>",
-            "Disc": "Change the users name"
-        }
-    ],
-    "removerole": [
-        {
-            "Syntax": "<user> <role>",
-            "Disc": "Remove mentioned users role"
-        }
-    ],
-    "mockuser": [
-        {
-            "Syntax": "<user> <text>",
-            "Disc": "Creates a webhook and sends text"
-        }
-    ],
-    "emojisteal": [
-        {
-            "Syntax": "<emote>",
-            "Disc": "Adds an emoji from another server to yours"
-        }
-    ],
-    "rainbowrole": [
-        {
-            "Syntax": "<amount> <delay> <role>",
-            "Disc": "Makes the role change colors"
-        }
-    ],
-    "theme": [
-        {
-            "Syntax": "<name>",
-            "Disc": "Select a theme"
-        }
-    ],
-    "createtheme": [
-        {
-            "Syntax": "",
-            "Disc": "Create a new theme"
-        }
-    ],
-    "themelist": [
-        {
-            "Syntax": "",
-            "Disc": "Displays all your themes"
-        }
-    ],
-    "deletetheme": [
-        {
-            "Syntax": "<name>",
-            "Disc": "Delete a theme"
-        }
-    ],
-    "cloudthemes": [
-        {
-            "Syntax": "",
-            "Disc": "Displays all cloud themes"
-        }
-    ],
-    "stealtheme": [
-        {
-            "Syntax": "<message_id>",
-            "Disc": "Steals the users theme"
-        }
-    ],
-    "installall": [
-        {
-            "Syntax": "",
-            "Disc": "Downloads a few themes to add to your list"
-        }
-    ],
-    "exporttheme": [
-        {
-            "Syntax": "",
-            "Disc": "Exports the current theme you are using"
-        }
-    ],
-    "download": [
-        {
-            "Syntax": "<themelink>",
-            "Disc": "Downloads the direct theme file"
-        }
-    ],
-    "riskymode": [
-        {
-            "Syntax": "",
-            "Disc": "Toggles codeblocks or embeds note few cmds dont work with codeblocks"
-        }
-    ],
-    "embedtitle": [
-        {
-            "Syntax": "[text]",
-            "Disc": "Customize title"
-        }
-    ],
-    "embedimage": [
-        {
-            "Syntax": "[url]",
-            "Disc": "Customize image"
-        }
-    ],
-    "embedcolor": [
-        {
-            "Syntax": "<name>",
-            "Disc": "Customize color"
-        }
-    ],
-    "embedfooter": [
-        {
-            "Syntax": "[text]",
-            "Disc": "Customize footer text"
-        }
-    ],
-    "embedauthorurl": [
-        {
-            "Syntax": "[url]",
-            "Disc": "Customize author url"
-        }
-    ],
-    "embedthumbnail": [
-        {
-            "Syntax": "[url]",
-            "Disc": "Customize thumbnailn"
-        }
-    ],
-    "embedfootericon": [
-        {
-            "Syntax": "[url]",
-            "Disc": "Customize footer icon"
-        }
-    ],
-    "embedauthoricon": [
-        {
-            "Syntax": "[url]",
-            "Disc": "Customize author icon"
-        }
-    ],
-    "embedauthorname": [
-        {
-            "Syntax": "[text]",
-            "Disc": "Customize author name"
-        }
-    ],
-    "iq": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Get iq count"
-        }
-    ],
-    "dice": [
-        {
-            "Syntax": "",
-            "Disc": "Play a dice game"
-        }
-    ],
-    "jail": [
-        {
-            "Syntax": "[jail]",
-            "Disc": "Put user in jail"
-        }
-    ],
-    "gay": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Get gay count"
-        }
-    ],
-    "glass": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Glass effect"
-        }
-    ],
-    "invert": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Invert effect"
-        }
-    ],
-    "magik": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Magik effect"
-        }
-    ],
-    "wasted": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Wasted effect"
-        }
-    ],
-    "trash": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Put user in trash"
-        }
-    ],
-    "grave": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Put user in grave"
-        }
-    ],
-    "amongus": [
-        {
-            "Syntax": "",
-            "Disc": "Amongus text screen"
-        }
-    ],
-    "stonkuser": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Stonks meme"
-        }
-    ],
-    "meme": [
-        {
-            "Syntax": "",
-            "Disc": "Generate a random meme"
-        }
-    ],
-    "triggered": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Triggered effect"
-        }
-    ],
-    "soulja": [
-        {
-            "Syntax": "",
-            "Disc": "Generate random soulja gif"
-        }
-    ],
-    "gaydar": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Find their gayness"
-        }
-    ],
-    "howcap": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Find them capping"
-        }
-    ],
-    "stickbug": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Stickbug their pfp"
-        }
-    ],
-    "fakenitro": [
-        {
-            "Syntax": "<link>",
-            "Disc": "Spoof link as nitro"
-        }
-    ],
-    "distort": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Completely uglify them"
-        }
-    ],
-    "dababy": [
-        {
-            "Syntax": "",
-            "Disc": "Generate random dababy gif"
-        }
-    ],
-    "lolijail": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Send them straight to jail"
-        }
-    ],
-    "iphonex": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Place them on an iphone"
-        }
-    ],
-    "imagesearch": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Search for images"
-        }
-    ],
-    "activitygen": [
-        {
-            "Syntax": "",
-            "Disc": "Generate random irl activity"
-        }
-    ],
-    "minesweeper": [
-        {
-            "Syntax": "",
-            "Disc": "Play a minesweeper game"
-        }
-    ],
-    "dankmeme": [
-        {
-            "Syntax": "",
-            "Disc": "Generate a random dankmeme"
-        }
-    ],
-    "baguette": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Put them on a weeb eating"
-        }
-    ],
-    "tweet": [
-        {
-            "Syntax": "<username> <text>",
-            "Disc": "Create a fake tweet"
-        }
-    ],
-    "staring": [
-        {
-            "Syntax": "<user> <user2>",
-            "Disc": "Show a couple staring back"
-        }
-    ],
-    "randomscreenshot": [
-        {
-            "Syntax": "",
-            "Disc": "Generate a random prnt screenshot"
-        }
-    ],
-    "fire": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Fire effect"
-        }
-    ],
-    "ps4": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Ps4 effect"
-        }
-    ],
-    "burn": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Burn effect"
-        }
-    ],
-    "scary": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Scary effect"
-        }
-    ],
-    "karen": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Karen effect"
-        }
-    ],
-    "sniper": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Sniper effect"
-        }
-    ],
-    "trinity": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Trinity effect"
-        }
-    ],
-    "thanos": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Thanos effect"
-        }
-    ],
-    "wanted": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Wanted effect"
-        }
-    ],
-    "dictator": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Dictator effect"
-        }
-    ],
-    "rejected": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Rejected effect"
-        }
-    ],
-    "brazzers": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Brazzers effect"
-        }
-    ],
-    "blueburn": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Blueburn effect"
-        }
-    ],
-    "approved": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Approved effect"
-        }
-    ],
-    "challenger": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Challenger effect"
-        }
-    ],
-    "steamcard": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Steamcard effect"
-        }
-    ],
-    "missionpassed": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Missionpassed effect"
-        }
-    ],
-    "reactlist": [
-        {
-            "Syntax": "",
-            "Disc": "Display who s in your auto reactions"
-        }
-    ],
-    "reactadd": [
-        {
-            "Syntax": "<user> [emoji]",
-            "Disc": "Add user to auto reaction"
-        }
-    ],
-    "reactremove": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Remove user from auto reaction"
-        }
-    ],
-    "sussy": [
-        {
-            "Syntax": "[user]",
-            "Disc": "So sussy"
-        }
-    ],
-    "poll": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Start a poll"
-        }
-    ],
-    "8ball": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Magic 8ball"
-        }
-    ],
-    "copy": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Mocks user"
-        }
-    ],
-    "roast": [
-        {
-            "Syntax": "",
-            "Disc": "Roast people in chat"
-        }
-    ],
-    "binary": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Convert to binary"
-        }
-    ],
-    "ghostchat": [
-        {
-            "Syntax": "",
-            "Disc": "Makes the chat blank"
-        }
-    ],
-    "unbinary": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Unconvert binary"
-        }
-    ],
-    "stopcopy": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Stops mocking user"
-        }
-    ],
-    "gping": [
-        {
-            "Syntax": "[amount] <user>",
-            "Disc": "Ghostping user"
-        }
-    ],
-    "regionalcopy": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Regional mocks user"
-        }
-    ],
-    "spoiler": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Spoiler your text sentence"
-        }
-    ],
-    "asciicopy": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Mocks user with ascii art"
-        }
-    ],
-    "textparser": [
-        {
-            "Syntax": "<imageurl>",
-            "Disc": "Get text from image"
-        }
-    ],
-    "spoofurl": [
-        {
-            "Syntax": "<fakelink> <reallink>",
-            "Disc": "Spoofs a link"
-        }
-    ],
-    "urban": [
-        {
-            "Syntax": "<word>",
-            "Disc": "Lookup word in the urbandict"
-        }
-    ],
-    "asciistopcopy": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Stop ascii art mocking"
-        }
-    ],
-    "base64encode": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Encrypt text in base64"
-        }
-    ],
-    "base64decode": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Decode text in base64"
-        }
-    ],
-    "channelping": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Gpings them in all channels"
-        }
-    ],
-    "rdecrypt": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Decrypt text in rise encryption"
-        }
-    ],
-    "reverse": [
-        {
-            "Syntax": "<message>",
-            "Disc": "Reverse what you say in chat"
-        }
-    ],
-    "rencrypt": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Encrypt text with rise encryption"
-        }
-    ],
-    "regionalstopcopy": [
-        {
-            "Syntax": "",
-            "Disc": "Stop mocking user with regional text"
-        }
-    ],
-    "massmutualping": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Gping user in all mutual server chats"
-        }
-    ],
-    "cap": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Cap space text"
-        }
-    ],
-    "tiny": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Tiny your text"
-        }
-    ],
-    "insult": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Insult a user"
-        }
-    ],
-    "911": [
-        {
-            "Syntax": "",
-            "Disc": "Recreation of 911 in discord"
-        }
-    ],
-    "angry": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Angry space text"
-        }
-    ],
-    "dick": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Dick size of the user"
-        }
-    ],
-    "emoji": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Generate emoji text"
-        }
-    ],
-    "ghostvirus": [
-        {
-            "Syntax": "",
-            "Disc": "Flag peoples antivirus"
-        }
-    ],
-    "monkey": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Monkify your words"
-        }
-    ],
-    "lennyspiral": [
-        {
-            "Syntax": "",
-            "Disc": "Spiral of lennies in chat"
-        }
-    ],
-    "hiddenchannels": [
-        {
-            "Syntax": "",
-            "Disc": "Expose all channels"
-        }
-    ],
-    "wyr": [
-        {
-            "Syntax": "",
-            "Disc": "Create a would you rather question"
-        }
-    ],
-    "hastebin": [
-        {
-            "Syntax": "<message>",
-            "Disc": "Upload to hastebin"
-        }
-    ],
-    "ascii": [
-        {
-            "Syntax": "",
-            "Disc": "Generate ascii art ex ascii text"
-        }
-    ],
-    "customembed": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Send custom embed"
-        }
-    ],
-    "timer": [
-        {
-            "Syntax": "<10s/10m/10h> <user>",
-            "Disc": "Set a timer"
-        }
-    ],
-    "qrcode": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Generate a scanable qr code"
-        }
-    ],
-    "unfunny": [
-        {
-            "Syntax": "",
-            "Disc": "Tells people how unfunny they are"
-        }
-    ],
-    "blankmessage": [
-        {
-            "Syntax": "",
-            "Disc": "Send a blank message in chat"
-        }
-    ],
-    "faketype": [
-        {
-            "Syntax": "<delay>",
-            "Disc": "Appear fake typing in chat"
-        }
-    ],
-    "timedmessage": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Send a timed message"
-        }
-    ],
-    "rainbowembed": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Custom rainbow embed"
-        }
-    ],
-    "spamreact": [
-        {
-            "Syntax": "<message_id>",
-            "Disc": "Spam emoji s on message"
-        }
-    ],
-    "spam": [
-        {
-            "Syntax": "<amount> <delay> <text>",
-            "Disc": "Spam your message"
-        }
-    ],
-    "blockdm": [
-        {
-            "Syntax": "<@userid> <message>",
-            "Disc": "Send message to blocked user"
-        }
-    ],
-    "json": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Json codeblock"
-        }
-    ],
-    "java": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Java codeblock"
-        }
-    ],
-    "hmtl": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Html codeblock"
-        }
-    ],
-    "bash": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Bash codeblock"
-        }
-    ],
-    "yaml": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Yaml codeblock"
-        }
-    ],
-    "rust": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Rust codeblock"
-        }
-    ],
-    "diff": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Diff codeblock"
-        }
-    ],
-    "ruby": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Ruby codeblock"
-        }
-    ],
-    "http": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Http codeblock"
-        }
-    ],
-    "lua": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Lua codeblock"
-        }
-    ],
-    "php": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Php codeblock"
-        }
-    ],
-    "sql": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Sql codeblock"
-        }
-    ],
-    "css": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Css codeblock"
-        }
-    ],
-    "xml": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Xml codeblock"
-        }
-    ],
-    "ini": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Ini codeblock"
-        }
-    ],
-    "py": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Py codeblock"
-        }
-    ],
-    "go": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Go codeblock"
-        }
-    ],
-    "js": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Js codeblock"
-        }
-    ],
-    "cs": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Cs codeblock"
-        }
-    ],
-    "advice": [
-        {
-            "Syntax": "",
-            "Disc": "Piece of advice"
-        }
-    ],
-    "covid": [
-        {
-            "Syntax": "",
-            "Disc": "Live stats of corona"
-        }
-    ],
-    "afkmode": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle afk mode"
-        }
-    ],
-    "specs": [
-        {
-            "Syntax": "",
-            "Disc": "Displays your pc specs"
-        }
-    ],
-    "hwid": [
-        {
-            "Syntax": "",
-            "Disc": "Sends your hwid in chat"
-        }
-    ],
-    "openfolder": [
-        {
-            "Syntax": "",
-            "Disc": "Opens rise folder"
-        }
-    ],
-    "blindmode": [
-        {
-            "Syntax": "",
-            "Disc": "Yeah this is stupid"
-        }
-    ],
-    "crypto": [
-        {
-            "Syntax": "<currency>",
-            "Disc": "Display prices"
-        }
-    ],
-    "resend": [
-        {
-            "Syntax": "",
-            "Disc": "Resends last used command"
-        }
-    ],
-    "normalmode": [
-        {
-            "Syntax": "",
-            "Disc": "Better than lightmode"
-        }
-    ],
-    "watchdogstats": [
-        {
-            "Syntax": "",
-            "Disc": "View watchdog bans"
-        }
-    ],
-    "nitrogen": [
-        {
-            "Syntax": "[amount]",
-            "Disc": "Generate a nitro code"
-        }
-    ],
-    "bantoken": [
-        {
-            "Syntax": "<token>",
-            "Disc": "Locks the token account"
-        }
-    ],
-    "playersonline": [
-        {
-            "Syntax": "",
-            "Disc": "Display hypixel lobbies count"
-        }
-    ],
-    "tokengen": [
-        {
-            "Syntax": "",
-            "Disc": "Generate a random discord token"
-        }
-    ],
-    "btclookup": [
-        {
-            "Syntax": "<address>",
-            "Disc": "Btc lookup on address"
-        }
-    ],
-    "passwordgen": [
-        {
-            "Syntax": "",
-            "Disc": "Generate a random password"
-        }
-    ],
-    "weather": [
-        {
-            "Syntax": "",
-            "Disc": "Check the weather of a certain area"
-        }
-    ],
-    "realnitrogen": [
-        {
-            "Syntax": "",
-            "Disc": "Generate a totally real nitro code"
-        }
-    ],
-    "afkmessage": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Set a new message for afk"
-        }
-    ],
-    "fucktoken": [
-        {
-            "Syntax": "",
-            "Disc": "Completely ruins someones account"
-        }
-    ],
-    "tokeninfo": [
-        {
-            "Syntax": "<token>",
-            "Disc": "Find information on account"
-        }
-    ],
-    "btcbalance": [
-        {
-            "Syntax": "<address>",
-            "Disc": "Balance lookup on address"
-        }
-    ],
-    "ethbalance": [
-        {
-            "Syntax": "<address>",
-            "Disc": "Balance lookup on address"
-        }
-    ],
-    "allowleave": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Allows them to leave the groupchat"
-        }
-    ],
-    "generatenitro": [
-        {
-            "Syntax": "[amount]",
-            "Disc": "Saves generated codes to a txt"
-        }
-    ],
-    "version": [
-        {
-            "Syntax": "",
-            "Disc": "Displays the current version of rise you are using"
-        }
-    ],
-    "noleave": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Doesnt allow them to leave the groupchat"
-        }
-    ],
-    "crash": [
-        {
-            "Syntax": "",
-            "Disc": "Sends an embed that has a crash link when users click"
-        }
-    ],
-    "checknitro": [
-        {
-            "Syntax": "",
-            "Disc": "Checknitro checks codes in the nitro codes txt"
-        }
-    ],
-    "paypal": [
-        {
-            "Syntax": "<amount>",
-            "Disc": "Send paypal request"
-        }
-    ],
-    "venmo": [
-        {
-            "Syntax": "<amount>",
-            "Disc": "Send venmo request"
-        }
-    ],
-    "bitcoin": [
-        {
-            "Syntax": "<amount>",
-            "Disc": "Send bitcoin request"
-        }
-    ],
-    "cashapp": [
-        {
-            "Syntax": "<amount>",
-            "Disc": "Send cashapp request"
-        }
-    ],
-    "editpaypal": [
-        {
-            "Syntax": "<email>",
-            "Disc": "Edit paypal email"
-        }
-    ],
-    "editvenmo": [
-        {
-            "Syntax": "<venmo>",
-            "Disc": "Edit venmo email"
-        }
-    ],
-    "editcashapp": [
-        {
-            "Syntax": "<cashtag>",
-            "Disc": "Edit cashapp tag"
-        }
-    ],
-    "editbitcoin": [
-        {
-            "Syntax": "<address>",
-            "Disc": "Edit bitcoin address"
-        }
-    ],
-    "prefix": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Change prefix"
-        }
-    ],
-    "ytmp4": [
-        {
-            "Syntax": "<url>",
-            "Disc": "Youtube to mp4"
-        }
-    ],
-    "uptime": [
-        {
-            "Syntax": "",
-            "Disc": "Display running uptime"
-        }
-    ],
-    "ask": [
-        {
-            "Syntax": "<question>",
-            "Disc": "Q a response"
-        }
-    ],
-    "delstatus": [
-        {
-            "Syntax": "",
-            "Disc": "Removes game status"
-        }
-    ],
-    "listening": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Listening status"
-        }
-    ],
-    "giflookup": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Get a list of gifs"
-        }
-    ],
-    "watching": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Watching status"
-        }
-    ],
-    "ytmp3": [
-        {
-            "Syntax": "<YT_ID>",
-            "Disc": "Youtube to mp3"
-        }
-    ],
-    "snipe": [
-        {
-            "Syntax": "",
-            "Disc": "Snipes last deleted message"
-        }
-    ],
-    "userinfo": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Retrieve info on a user"
-        }
-    ],
-    "leaveservers": [
-        {
-            "Syntax": "",
-            "Disc": "Leaves all servers you re in"
-        }
-    ],
-    "streaming": [
-        {
-            "Syntax": "<link> <text>",
-            "Disc": "Streaming status"
-        }
-    ],
-    "userlookup": [
-        {
-            "Syntax": "<id>",
-            "Disc": "Retrieve info on the given id"
-        }
-    ],
-    "roleinfo": [
-        {
-            "Syntax": "<role>",
-            "Disc": "Looks up info on the current role"
-        }
-    ],
-    "serverinfo": [
-        {
-            "Syntax": "",
-            "Disc": "Looks up info in the current server used"
-        }
-    ],
-    "removefriends": [
-        {
-            "Syntax": "",
-            "Disc": "Removes all friends on your added list"
-        }
-    ],
-    "checktokens": [
-        {
-            "Syntax": "",
-            "Disc": "Prints if tokens are valid in raid tokens txt"
-        }
-    ],
-    "dumpchat": [
-        {
-            "Syntax": "",
-            "Disc": "Dumps 2500 messages into logs dumpchat txt"
-        }
-    ],
-    "logchannel": [
-        {
-            "Syntax": "<channel_id>",
-            "Disc": "Logs incoming channel messages to logs channel logs txt and webhook"
-        }
-    ],
-    "stoplogchannel": [
-        {
-            "Syntax": "<channel_id>",
-            "Disc": "Stop logging incoming channel messages to channel logs txt and webhook"
-        }
-    ],
-    "eval": [
-        {
-            "Syntax": "<code>",
-            "Disc": "Evaluate code"
-        }
-    ],
-    "userbio": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Get user bio"
-        }
-    ],
-    "avatar": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Get user avatar"
-        }
-    ],
-    "py2exe": [
-        {
-            "Syntax": "<pyfile>",
-            "Disc": "Convert to exe"
-        }
-    ],
-    "userbanner": [
-        {
-            "Syntax": "[user]",
-            "Disc": "Get users banner"
-        }
-    ],
-    "calculate": [
-        {
-            "Syntax": "<equation>",
-            "Disc": "Calculates math"
-        }
-    ],
-    "iconsteal": [
-        {
-            "Syntax": "",
-            "Disc": "Use in a guild to grab their icon"
-        }
-    ],
-    "groupicon": [
-        {
-            "Syntax": "",
-            "Disc": "Sends the current channel logo"
-        }
-    ],
-    "cloneserver": [
-        {
-            "Syntax": "[guild_id]",
-            "Disc": "Clones a server for you"
-        }
-    ],
-    "translate": [
-        {
-            "Syntax": "<language> <text>",
-            "Disc": "Translate a message"
-        }
-    ],
-    "dankkit": [
-        {
-            "Syntax": "",
-            "Disc": "Buys the supplies to start for dank farming"
-        }
-    ],
-    "screenshotpc": [
-        {
-            "Syntax": "",
-            "Disc": "Sends a screenshot of your whole screen"
-        }
-    ],
-    "serverperms": [
-        {
-            "Syntax": "",
-            "Disc": "Tells you the perms you have in all servers"
-        }
-    ],
-    "emojiexport": [
-        {
-            "Syntax": "",
-            "Disc": "Export all emojis from a server info a folder"
-        }
-    ],
-    "dankfarm": [
-        {
-            "Syntax": "",
-            "Disc": "Say this in a channel to auto farm dankmemer"
-        }
-    ],
-    "danksell": [
-        {
-            "Syntax": "",
-            "Disc": "Say this in a channel to auto sell for dankmemer"
-        }
-    ],
-    "autobump": [
-        {
-            "Syntax": "",
-            "Disc": "Say this in a channel to auto bump with disboard"
-        }
-    ],
-    "generate": [
-        {
-            "Syntax": "",
-            "Disc": "Generate an mc account from your altening api key"
-        }
-    ],
-    "setuphooks": [
-        {
-            "Syntax": "",
-            "Disc": "Set up all webhooks in config json for your server"
-        }
-    ],
-    "setupstalkers": [
-        {
-            "Syntax": "",
-            "Disc": "Set up all webhooks in stalker json for your server"
-        }
-    ],
-    "leavegroups": [
-        {
-            "Syntax": "",
-            "Disc": "Leaves all groups you re in"
-        }
-    ],
-    "friendexport": [
-        {
-            "Syntax": "",
-            "Disc": "Backup all your friends into a txt"
-        }
-    ],
-    "serverexport": [
-        {
-            "Syntax": "",
-            "Disc": "Backup all your servers into a txt"
-        }
-    ],
-    "recoverservers": [
-        {
-            "Syntax": "",
-            "Disc": "Joins all your backed up servers"
-        }
-    ],
-    "ignorerequests": [
-        {
-            "Syntax": "",
-            "Disc": "Ignores all incoming friend requests"
-        }
-    ],
-    "antidms": [
-        {
-            "Syntax": "",
-            "Disc": "Toggles dm protection closes any incoming dms"
-        }
-    ],
-    "antigcspam": [
-        {
-            "Syntax": "",
-            "Disc": "Toggles gcspam protection closes any incoming groupchats"
-        }
-    ],
-    "antifriendrequests": [
-        {
-            "Syntax": "",
-            "Disc": "Toggles friend requests protection stops incoming friend request"
-        }
-    ],
-    "api": [
-        {
-            "Syntax": "",
-            "Disc": "Api commands"
-        }
-    ],
-    "restart": [
-        {
-            "Syntax": "",
-            "Disc": "Restarts rise"
-        }
-    ],
-    "daily": [
-        {
-            "Syntax": "",
-            "Disc": "Daily message"
-        }
-    ],
-    "cmd": [
-        {
-            "Syntax": "",
-            "Disc": "Cmd commands"
-        }
-    ],
-    "rpc": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle rpc on and off"
-        }
-    ],
-    "close": [
-        {
-            "Syntax": "",
-            "Disc": "Exits rise completely"
-        }
-    ],
-    "ping": [
-        {
-            "Syntax": "",
-            "Disc": "Sends your ping in chat"
-        }
-    ],
-    "biocycle": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle biocycle on and off"
-        }
-    ],
-    "biocycleclear": [
-        {
-            "Syntax": "",
-            "Disc": "Clear the statuscycle txt"
-        }
-    ],
-    "bandetect": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle ban detect on and off"
-        }
-    ],
-    "clearconsole": [
-        {
-            "Syntax": "",
-            "Disc": "Clears console completely"
-        }
-    ],
-    "aboutmeclear": [
-        {
-            "Syntax": "",
-            "Disc": "Clear the aboutmecycle txt"
-        }
-    ],
-    "aboutmecycle": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle aboutmecycle on and off"
-        }
-    ],
-    "stalklist": [
-        {
-            "Syntax": "",
-            "Disc": "Displays current stalked users"
-        }
-    ],
-    "idiotalerts": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle idiot alerts on and off"
-        }
-    ],
-    "biocycleadd": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Add to the bio cycle"
-        }
-    ],
-    "filelogging": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle file logging on and off"
-        }
-    ],
-    "nitrosniper": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle nitrosniper on and off"
-        }
-    ],
-    "wordsniper": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle word sniper on and off"
-        }
-    ],
-    "hypesquad": [
-        {
-            "Syntax": "<type>",
-            "Disc": "Change your hypesquad"
-        }
-    ],
-    "selfbotdetect": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle selfbotdetect on and off"
-        }
-    ],
-    "staffdetection": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle staff detection on and off"
-        }
-    ],
-    "senddebugging": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle send debugging on and off"
-        }
-    ],
-    "ghostpings": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle ghostping detection on and off"
-        }
-    ],
-    "giveawaysniper": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle giveawaysniper on and off"
-        }
-    ],
-    "aboutmeadd": [
-        {
-            "Syntax": "<text>",
-            "Disc": "Add text to the about me cycle"
-        }
-    ],
-    "unstalk": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Remove them from stalking watcher"
-        }
-    ],
-    "deletedebugging": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle delete debugging on and off"
-        }
-    ],
-    "notifications": [
-        {
-            "Syntax": "",
-            "Disc": "Toggle windows notifications on and off"
-        }
-    ],
-    "stalk": [
-        {
-            "Syntax": "<user>",
-            "Disc": "See every account change the user makes"
-        }
-    ],
-    "shareadd": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Share your sb commands with the user"
-        }
-    ],
-    "giveawaydelay": [
-        {
-            "Syntax": "<delay>",
-            "Disc": "Change giveaway seconds timeout"
-        }
-    ],
-    "blacklistadd": [
-        {
-            "Syntax": "<server_id>",
-            "Disc": "Add blacklist server from giveaways"
-        }
-    ],
-    "shareremove": [
-        {
-            "Syntax": "<user>",
-            "Disc": "Delete user from your shared commands"
-        }
-    ],
-    "banwebhook": [
-        {
-            "Syntax": "<url>",
-            "Disc": "Sets ban detect webhook"
-        }
-    ],
-    "nitrowebhook": [
-        {
-            "Syntax": "<url>",
-            "Disc": "Sets nitro sniper webhook"
-        }
-    ],
-    "gpingwebhook": [
-        {
-            "Syntax": "<url>",
-            "Disc": "Sets ghost ping webhook"
-        }
-    ],
-    "wordwebhook": [
-        {
-            "Syntax": "<url>",
-            "Disc": "Sets word sniper webhook"
-        }
-    ],
-    "staffwebhook": [
-        {
-            "Syntax": "<url>",
-            "Disc": "Sets staff detection webhook"
-        }
-    ],
-    "selfbotwebhook": [
-        {
-            "Syntax": "<url>",
-            "Disc": "Sets selfbot detect webhook"
-        }
-    ],
-    "channelwebhook": [
-        {
-            "Syntax": "<url>",
-            "Disc": "Sets channel stalking webhook"
-        }
-    ],
-    "giveawaywebhook": [
-        {
-            "Syntax": "<url>",
-            "Disc": "Sets giveaway sniper webhook"
-        }
-    ],
-    "commandwebhook": [
-        {
-            "Syntax": "<url>",
-            "Disc": "Sets command logging webhook"
-        }
-    ]
+    "911": [{
+        "Disc": "Recreation Of 911 In Discord",
+        "Syntax": ""
+    }],
+    "8ball": [{
+        "Disc": "Magic 8ball",
+        "Syntax": "<text> "
+    }],
+    "Ablacklistadd": [{
+        "Disc": "Add Blacklist User For Afk Mode",
+        "Syntax": "<UserID> "
+    }],
+    "Ablacklistremove": [{
+        "Disc": "Removes Blacklist User From Afk Mode",
+        "Syntax": "<UserID> "
+    }],
+    "Aboutmeadd": [{
+        "Disc": "Add Text To The About Me Cycle",
+        "Syntax": "<text> "
+    }],
+    "Aboutmeclear": [{
+        "Disc": "Clear The Aboutmecycle.Txt",
+        "Syntax": ""
+    }],
+    "Aboutmecycle": [{
+        "Disc": "Toggle Aboutmecycle On And Off",
+        "Syntax": ""
+    }],
+    "Abuse": [{
+        "Disc": "Abuse Commands",
+        "Syntax": ""
+    }],
+    "Account": [{
+        "Disc": "Account Commands",
+        "Syntax": "[Page] "
+    }],
+    "Achievement": [{
+        "Disc": "Achievement Meme",
+        "Syntax": "<text> "
+    }],
+    "Activitygen": [{
+        "Disc": "Generate Random Irl Activity",
+        "Syntax": ""
+    }],
+    "Admin": [{
+        "Disc": "Admin Commands",
+        "Syntax": ""
+    }],
+    "Advice": [{
+        "Disc": "Piece Of Advice",
+        "Syntax": ""
+    }],
+    "Afkmessage": [{
+        "Disc": "Set A New Message For Afk",
+        "Syntax": "<text> "
+    }],
+    "Afkmode": [{
+        "Disc": "Toggle Afk Mode",
+        "Syntax": ""
+    }],
+    "Allmyhomieshate": [{
+        "Disc": "Allmyhomieshate Meme",
+        "Syntax": "<text> "
+    }],
+    "Allowleave": [{
+        "Disc": "Allows Them To Leave The Groupchat",
+        "Syntax": "<user> "
+    }],
+    "Amongus": [{
+        "Disc": "Amongus Text Screen",
+        "Syntax": ""
+    }],
+    "Anal": [{
+        "Disc": "Random Anal Image",
+        "Syntax": ""
+    }],
+    "Angry": [{
+        "Disc": "Angry Space Text",
+        "Syntax": "<text> "
+    }],
+    "Animeme": [{
+        "Disc": "Send A Random Weeb Meme",
+        "Syntax": ""
+    }],
+    "Antidms": [{
+        "Disc": "Toggles Dm Protection, Closes Any Incoming Dms",
+        "Syntax": ""
+    }],
+    "Antifriendrequests": [{
+        "Disc": "Toggles Friend Requests Protection, Stops Incoming Friend Request",
+        "Syntax": ""
+    }],
+    "Antigcspam": [{
+        "Disc": "Toggles Gcspam Protection, Closes Any Incoming Groupchats",
+        "Syntax": ""
+    }],
+    "Api": [{
+        "Disc": "Api Commands",
+        "Syntax": ""
+    }],
+    "Approved": [{
+        "Disc": "Approved Effect",
+        "Syntax": "[user] "
+    }],
+    "Ascii": [{
+        "Disc": "Generate Ascii Art Ex: Ascii <Text>",
+        "Syntax": ""
+    }],
+    "Asciicopy": [{
+        "Disc": "Mocks User With Ascii Art",
+        "Syntax": "<user> "
+    }],
+    "Asciistopcopy": [{
+        "Disc": "Stop Ascii Art Mocking",
+        "Syntax": "<user> "
+    }],
+    "Ask": [{
+        "Disc": "Q/A Response",
+        "Syntax": "<question> "
+    }],
+    "Autobump": [{
+        "Disc": "Say This In A Channel To Auto Bump With Disboard",
+        "Syntax": ""
+    }],
+    "Avatar": [{
+        "Disc": "Get User Avatar",
+        "Syntax": "[user] "
+    }],
+    "Aww": [{
+        "Disc": "Send Awwing Image",
+        "Syntax": ""
+    }],
+    "Baguette": [{
+        "Disc": "Put Them On A Weeb Eating",
+        "Syntax": "[user] "
+    }],
+    "Ban": [{
+        "Disc": "Ban A Member When Mentioned",
+        "Syntax": "<user> "
+    }],
+    "Bandetect": [{
+        "Disc": "Toggle Ban Detect On And Off",
+        "Syntax": ""
+    }],
+    "Bantoken": [{
+        "Disc": "Locks The Token Account",
+        "Syntax": "<token> "
+    }],
+    "Banwebhook": [{
+        "Disc": "Sets Ban Detect Webhook",
+        "Syntax": "<url> "
+    }],
+    "Base64decode": [{
+        "Disc": "Decode Text In Base64",
+        "Syntax": "<text> "
+    }],
+    "Base64encode": [{
+        "Disc": "Encrypt Text In Base64",
+        "Syntax": "<text> "
+    }],
+    "Bash": [{
+        "Disc": "Bash Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Bernie": [{
+        "Disc": "Bernie Meme",
+        "Syntax": "<text> "
+    }],
+    "Binary": [{
+        "Disc": "Convert To Binary",
+        "Syntax": "<text> "
+    }],
+    "Biocycle": [{
+        "Disc": "Toggle Biocycle On And Off",
+        "Syntax": ""
+    }],
+    "Biocycleadd": [{
+        "Disc": "Add To The Bio Cycle",
+        "Syntax": "<text> "
+    }],
+    "Biocycleclear": [{
+        "Disc": "Clear The Statuscycle.Txt",
+        "Syntax": ""
+    }],
+    "Bird": [{
+        "Disc": "Random Bird Image",
+        "Syntax": ""
+    }],
+    "Bitcoin": [{
+        "Disc": "Send Bitcoin Request",
+        "Syntax": "<amount> "
+    }],
+    "Blankmessage": [{
+        "Disc": "Send A Blank Message In Chat",
+        "Syntax": ""
+    }],
+    "Blindmode": [{
+        "Disc": "Yeah This Is Stupid",
+        "Syntax": ""
+    }],
+    "Blockdm": [{
+        "Disc": "Send Message To Blocked User",
+        "Syntax": "<@userid> <message> "
+    }],
+    "Blowjob": [{
+        "Disc": "Generate Some Hentai Blowjobs",
+        "Syntax": ""
+    }],
+    "Blueburn": [{
+        "Disc": "Blueburn Effect",
+        "Syntax": "[user] "
+    }],
+    "Boobs": [{
+        "Disc": "Random Boobs Image",
+        "Syntax": ""
+    }],
+    "Bots": [{
+        "Disc": "Display All Server Bots",
+        "Syntax": ""
+    }],
+    "Brazzers": [{
+        "Disc": "Brazzers Effect",
+        "Syntax": "[user] "
+    }],
+    "Btcbalance": [{
+        "Disc": "Balance Lookup On Address",
+        "Syntax": "<address> "
+    }],
+    "Btclookup": [{
+        "Disc": "Btc Lookup On Address",
+        "Syntax": "<address> "
+    }],
+    "Bunny": [{
+        "Disc": "Bunny Meme",
+        "Syntax": "<text> "
+    }],
+    "Burn": [{
+        "Disc": "Burn Effect",
+        "Syntax": "[user] "
+    }],
+    "Buttons": [{
+        "Disc": "Buttons Meme",
+        "Syntax": "<text> <text2> "
+    }],
+    "Calculate": [{
+        "Disc": "Calculates Math",
+        "Syntax": "<equation> "
+    }],
+    "Cap": [{
+        "Disc": "Cap Space Text",
+        "Syntax": "<text> "
+    }],
+    "Cashapp": [{
+        "Disc": "Send Cashapp Request",
+        "Syntax": "<amount> "
+    }],
+    "Cat": [{
+        "Disc": "Random Cat Image",
+        "Syntax": ""
+    }],
+    "Catfact": [{
+        "Disc": "Random Cat Facts",
+        "Syntax": ""
+    }],
+    "CFR": [{
+        "Disc": "Resolve Cloudflare Ips",
+        "Syntax": "<link> "
+    }],
+    "Chad": [{
+        "Disc": "Chad Meme",
+        "Syntax": "<text> <text2> "
+    }],
+    "Changemymind": [{
+        "Disc": "Changemymind Meme",
+        "Syntax": "<text> "
+    }],
+    "Channelnuke": [{
+        "Disc": "Delete All Channels In A Server",
+        "Syntax": ""
+    }],
+    "Channelping": [{
+        "Disc": "Gpings Them In All Channels",
+        "Syntax": "<user> "
+    }],
+    "Channelwebhook": [{
+        "Disc": "Sets Channel Stalking Webhook",
+        "Syntax": "<url> "
+    }],
+    "Checknitro": [{
+        "Disc": "Checknitro Checks Codes In The Nitrocodes.Txt",
+        "Syntax": ""
+    }],
+    "Checktokens": [{
+        "Disc": "Prints If Tokens Are Valid In Raidtokens.Txt",
+        "Syntax": ""
+    }],
+    "Clearalldms": [{
+        "Disc": "Deletes Every Individual Dm With Everyone",
+        "Syntax": ""
+    }],
+    "Clearallnick": [{
+        "Disc": "Clear Everyones Nickname",
+        "Syntax": ""
+    }],
+    "Clearconsole": [{
+        "Disc": "Clears Console Completely",
+        "Syntax": ""
+    }],
+    "Cloneserver": [{
+        "Disc": "Clones A Server For You",
+        "Syntax": "[guildid] "
+    }],
+    "Close": [{
+        "Disc": "Exits Rise Completely",
+        "Syntax": ""
+    }],
+    "Closedms": [{
+        "Disc": "Closes All Your Dm Channels",
+        "Syntax": ""
+    }],
+    "Cloudthemes": [{
+        "Disc": "Displays All Cloud Themes",
+        "Syntax": ""
+    }],
+    "Clyde": [{
+        "Disc": "Clyde Meme",
+        "Syntax": "<text> "
+    }],
+    "Cmd": [{
+        "Disc": "Cmd Commands",
+        "Syntax": ""
+    }],
+    "Coffee": [{
+        "Disc": "Girl Drinking Coffee",
+        "Syntax": ""
+    }],
+    "Commandwebhook": [{
+        "Disc": "Sets Command Logging Webhook",
+        "Syntax": "<url> "
+    }],
+    "Copy": [{
+        "Disc": "Mocks User",
+        "Syntax": "<user> "
+    }],
+    "Covid": [{
+        "Disc": "Live Stats Of Corona",
+        "Syntax": ""
+    }],
+    "Crash": [{
+        "Disc": "Sends An Embed That Has A Crash Link When Users Click",
+        "Syntax": ""
+    }],
+    "Crashcall": [{
+        "Disc": "Crash The Call Youre In",
+        "Syntax": ""
+    }],
+    "Crashwebhook": [{
+        "Disc": "Crashes Channel With Webhook",
+        "Syntax": "<url> <amount> "
+    }],
+    "Crawl": [{
+        "Disc": "Crawls Site Links",
+        "Syntax": "<site> "
+    }],
+    "Creategroups": [{
+        "Disc": "Creates Many Groups And Saves Them Into A Txt, Use (Groupspam <User_Id>) Afterwards",
+        "Syntax": "[name] "
+    }],
+    "Createrole": [{
+        "Disc": "Create A New Role",
+        "Syntax": "<name> "
+    }],
+    "Createtheme": [{
+        "Disc": "Create A New Theme",
+        "Syntax": ""
+    }],
+    "Crypto": [{
+        "Disc": "Display Prices",
+        "Syntax": "<currency> "
+    }],
+    "Cs": [{
+        "Disc": "Cs Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Css": [{
+        "Disc": "Css Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Cuddle": [{
+        "Disc": "Mention User To Cuddle Them",
+        "Syntax": "<user> "
+    }],
+    "Customcmds": [{
+        "Disc": "Custom Commands",
+        "Syntax": ""
+    }],
+    "Customembed": [{
+        "Disc": "Send Custom Embed",
+        "Syntax": "<text> "
+    }],
+    "Dababy": [{
+        "Disc": "Generate Random Dababy Gif",
+        "Syntax": ""
+    }],
+    "Daily": [{
+        "Disc": "Daily Message",
+        "Syntax": ""
+    }],
+    "Dankfarm": [{
+        "Disc": "Say This In A Channel To Auto Farm Dankmemer",
+        "Syntax": ""
+    }],
+    "Dankkit": [{
+        "Disc": "Buys The Supplies To Start For Dank Farming",
+        "Syntax": ""
+    }],
+    "Dankmeme": [{
+        "Disc": "Generate A Random Dankmeme",
+        "Syntax": ""
+    }],
+    "Danksell": [{
+        "Disc": "Say This In A Channel To Auto Sell For Dankmemer",
+        "Syntax": ""
+    }],
+    "Deletedebugging": [{
+        "Disc": "Toggle Delete Debugging On And Off",
+        "Syntax": ""
+    }],
+    "Deleterole": [{
+        "Disc": "Deletes The Role",
+        "Syntax": "<role> "
+    }],
+    "Deletetheme": [{
+        "Disc": "Delete A Theme",
+        "Syntax": "<name> "
+    }],
+    "Deletewebhook": [{
+        "Disc": "Deletes Given Webhook",
+        "Syntax": "<url> "
+    }],
+    "Delstatus": [{
+        "Disc": "Removes Game Status",
+        "Syntax": ""
+    }],
+    "Design": [{
+        "Disc": "Design Commands",
+        "Syntax": ""
+    }],
+    "Dice": [{
+        "Disc": "Play A Dice Game",
+        "Syntax": ""
+    }],
+    "Dick": [{
+        "Disc": "Dick Size Of The User",
+        "Syntax": "[user] "
+    }],
+    "Dictator": [{
+        "Disc": "Dictator Effect",
+        "Syntax": "[user] "
+    }],
+    "Diff": [{
+        "Disc": "Diff Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Distort": [{
+        "Disc": "Completely Uglify Them",
+        "Syntax": "[user] "
+    }],
+    "Dog": [{
+        "Disc": "Random Dog Image",
+        "Syntax": ""
+    }],
+    "Doge": [{
+        "Disc": "Doge Meme",
+        "Syntax": "<text> <text2> "
+    }],
+    "Dogfact": [{
+        "Disc": "Random Dog Facts",
+        "Syntax": ""
+    }],
+    "Domainhistory": [{
+        "Disc": "Past Ip's On A Domain",
+        "Syntax": "<domain> "
+    }],
+    "Download": [{
+        "Disc": "Downloads The Direct Theme File",
+        "Syntax": "<themelink> "
+    }],
+    "Drake": [{
+        "Disc": "Drake Meme",
+        "Syntax": "<text> <text2> "
+    }],
+    "Dumpchat": [{
+        "Disc": "Dumps 2500 Messages Into ./Logs/Dumpchat.Txt",
+        "Syntax": ""
+    }],
+    "Editbitcoin": [{
+        "Disc": "Edit Bitcoin Address",
+        "Syntax": "<address> "
+    }],
+    "Editcashapp": [{
+        "Disc": "Edit Cashapp Tag",
+        "Syntax": "<cashtag> "
+    }],
+    "Editpaypal": [{
+        "Disc": "Edit Paypal Email",
+        "Syntax": "<email> "
+    }],
+    "Editvenmo": [{
+        "Disc": "Edit Venmo Email",
+        "Syntax": "<venmo> "
+    }],
+    "Embedcolor": [{
+        "Disc": "Customize Color",
+        "Syntax": "<name> "
+    }],
+    "Embedfooter": [{
+        "Disc": "Customize Footer Text",
+        "Syntax": "[text] "
+    }],
+    "Embedthumbnail": [{
+        "Disc": "Customize Thumbnail",
+        "Syntax": "[url] "
+    }],
+    "Embedtitle": [{
+        "Disc": "Customize Title",
+        "Syntax": "[text] "
+    }],
+    "Emoji": [{
+        "Disc": "Generate Emoji Text",
+        "Syntax": "<text> "
+    }],
+    "Emojiexport": [{
+        "Disc": "Export All Emojis From A Server Info A Folder",
+        "Syntax": ""
+    }],
+    "Emojinuke": [{
+        "Disc": "Delete All Emojis In A Server",
+        "Syntax": ""
+    }],
+    "Emojisteal": [{
+        "Disc": "Adds An Emoji From Another Server To Yours",
+        "Syntax": "<emote> "
+    }],
+    "Ethbalance": [{
+        "Disc": "Balance Lookup On Address",
+        "Syntax": "<address> "
+    }],
+    "Eval": [{
+        "Disc": "Evaluate Code",
+        "Syntax": "<code> "
+    }],
+    "Exporttheme": [{
+        "Disc": "Exports The Current Theme You Are Using",
+        "Syntax": ""
+    }],
+    "Fakeinfo": [{
+        "Disc": "To Generate Fake Info",
+        "Syntax": ""
+    }],
+    "Fakenitro": [{
+        "Disc": "Spoof Link As Nitro",
+        "Syntax": "<link> "
+    }],
+    "Faketype": [{
+        "Disc": "Appear Fake Typing In Chat",
+        "Syntax": "<delay> "
+    }],
+    "Femdom": [{
+        "Disc": "Send A Fem Story",
+        "Syntax": ""
+    }],
+    "Filelogging": [{
+        "Disc": "Toggle File Logging On And Off",
+        "Syntax": ""
+    }],
+    "Fire": [{
+        "Disc": "Fire Effect",
+        "Syntax": "[user] "
+    }],
+    "Firewalldetect": [{
+        "Disc": "Detect Ddos Protection",
+        "Syntax": "<domain> "
+    }],
+    "Fish": [{
+        "Disc": "Cute Fish Saying Hey",
+        "Syntax": ""
+    }],
+    "Floof": [{
+        "Disc": "Random Floof Animal",
+        "Syntax": ""
+    }],
+    "Fox": [{
+        "Disc": "Random Fox Image",
+        "Syntax": ""
+    }],
+    "Foxfact": [{
+        "Disc": "Random Fox Facts",
+        "Syntax": ""
+    }],
+    "Freeway": [{
+        "Disc": "Freeway Meme",
+        "Syntax": "<text> <text2> "
+    }],
+    "Friendexport": [{
+        "Disc": "Backup All Your Friends Into A Txt",
+        "Syntax": ""
+    }],
+    "Fuck": [{
+        "Disc": "Fuck @User To Fuck Them",
+        "Syntax": ""
+    }],
+    "Fucktoken": [{
+        "Disc": "Completely Ruins Someones Account",
+        "Syntax": ""
+    }],
+    "Fun": [{
+        "Disc": "Fun Commands",
+        "Syntax": "[Page] "
+    }],
+    "Gasm": [{
+        "Disc": "Random Hentai Gasms",
+        "Syntax": ""
+    }],
+    "Gay": [{
+        "Disc": "Get Gay Count",
+        "Syntax": "[user] "
+    }],
+    "Gaydar": [{
+        "Disc": "Find Their Gayness",
+        "Syntax": "[user] "
+    }],
+    "Gblacklistadd": [{
+        "Disc": "Add Blacklist Server From Giveaways",
+        "Syntax": "<serverid> "
+    }],
+    "Gblacklistremove": [{
+        "Disc": "Removes Blacklist Server From Giveaways",
+        "Syntax": "<serverid> "
+    }],
+    "Genavatar": [{
+        "Disc": "Generate A Weeb Avatar",
+        "Syntax": ""
+    }],
+    "Generate": [{
+        "Disc": "Generate An Mc Account From Your Altening Api Key",
+        "Syntax": ""
+    }],
+    "Generatenitro": [{
+        "Disc": "Saves Generated Codes To A Txt",
+        "Syntax": "[amount] "
+    }],
+    "Ghostchat": [{
+        "Disc": "Makes The Chat Blank",
+        "Syntax": ""
+    }],
+    "Ghostpings": [{
+        "Disc": "Toggle Ghostping Detection On And Off",
+        "Syntax": ""
+    }],
+    "Ghostvirus": [{
+        "Disc": "Flag Peoples Antivirus",
+        "Syntax": ""
+    }],
+    "Giflookup": [{
+        "Disc": "Get A List Of Gifs",
+        "Syntax": "<text> "
+    }],
+    "Giveawaydelay": [{
+        "Disc": "Change Giveaway Seconds Timeout",
+        "Syntax": "<delay> "
+    }],
+    "Giveawaysniper": [{
+        "Disc": "Toggle Giveawaysniper On And Off",
+        "Syntax": ""
+    }],
+    "Giveawaywebhook": [{
+        "Disc": "Sets Giveaway Sniper Webhook",
+        "Syntax": "<url> "
+    }],
+    "Giverole": [{
+        "Disc": "Give Mentioned User A Role",
+        "Syntax": "<user> <role> "
+    }],
+    "Glass": [{
+        "Disc": "Glass Effect",
+        "Syntax": "[user] "
+    }],
+    "Go": [{
+        "Disc": "Go Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Gonewild": [{
+        "Disc": "Insane Gonewild Porn",
+        "Syntax": ""
+    }],
+    "Gping": [{
+        "Disc": "Ghostping User",
+        "Syntax": "[amount] <user> "
+    }],
+    "Gpingall": [{
+        "Disc": "Starts Pinging Random People",
+        "Syntax": ""
+    }],
+    "Gpingwebhook": [{
+        "Disc": "Sets Ghost Ping Webhook",
+        "Syntax": "<url> "
+    }],
+    "Grave": [{
+        "Disc": "Put User In Grave",
+        "Syntax": "[user] "
+    }],
+    "Groupicon": [{
+        "Disc": "Sends The Current Channel Logo",
+        "Syntax": ""
+    }],
+    "Gru": [{
+        "Disc": "Gru Meme",
+        "Syntax": "<text> "
+    }],
+    "Guildbanner": [{
+        "Disc": "Sends Guilds Banner In Chat",
+        "Syntax": ""
+    }],
+    "Halftoken": [{
+        "Disc": "Get Half The Users Token",
+        "Syntax": "<user> "
+    }],
+    "Hanal": [{
+        "Disc": "Hentai Anime Anal",
+        "Syntax": ""
+    }],
+    "Hass": [{
+        "Disc": "Create Anime Ass",
+        "Syntax": ""
+    }],
+    "Hastebin": [{
+        "Disc": "Upload To Hastebin",
+        "Syntax": "<message> "
+    }],
+    "Hentai": [{
+        "Disc": "Send A Random Hentai Image",
+        "Syntax": ""
+    }],
+    "Hentaihookspam": [{
+        "Disc": "Spams Webhook (With Hentai Pfps)",
+        "Syntax": "<url> <amount> <message> "
+    }],
+    "Hiddenchannels": [{
+        "Disc": "Expose All Channels",
+        "Syntax": ""
+    }],
+    "Hmtl": [{
+        "Disc": "Html Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Hneko": [{
+        "Disc": "Send A Hneko Image",
+        "Syntax": ""
+    }],
+    "Holo": [{
+        "Disc": "Some Holo Hentai",
+        "Syntax": ""
+    }],
+    "Howcap": [{
+        "Disc": "Find Them Capping",
+        "Syntax": "[user] "
+    }],
+    "Hpussy": [{
+        "Disc": "Generate Some Hentai Pussy",
+        "Syntax": ""
+    }],
+    "Hthigh": [{
+        "Disc": "Random Anime Thighs",
+        "Syntax": ""
+    }],
+    "Http": [{
+        "Disc": "Http Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Hug": [{
+        "Disc": "Mention User To Hug Them",
+        "Syntax": "<user> "
+    }],
+    "Hungry": [{
+        "Disc": "Hungry Meme",
+        "Syntax": "<text> "
+    }],
+    "Hwid": [{
+        "Disc": "Sends Your Hwid In Chat",
+        "Syntax": ""
+    }],
+    "Hypesquad": [{
+        "Disc": "Change Your Hypesquad",
+        "Syntax": "<type> "
+    }],
+    "Iconsteal": [{
+        "Disc": "Use In A Guild To Grab Their Icon",
+        "Syntax": ""
+    }],
+    "Idiotalerts": [{
+        "Disc": "Toggle Idiot Alerts On And Off",
+        "Syntax": ""
+    }],
+    "Ignorerequests": [{
+        "Disc": "Ignores All Incoming Friend Requests",
+        "Syntax": ""
+    }],
+    "Image": [{
+        "Disc": "Image Commands",
+        "Syntax": ""
+    }],
+    "Imagesearch": [{
+        "Disc": "Search For Images",
+        "Syntax": "<text> "
+    }],
+    "ini": [{
+        "Disc": "Ini Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Installall": [{
+        "Disc": "Downloads A Few Themes To Add To Your List",
+        "Syntax": ""
+    }],
+    "Insult": [{
+        "Disc": "Insult A User",
+        "Syntax": "<user> "
+    }],
+    "Invert": [{
+        "Disc": "Invert Effect",
+        "Syntax": "[user] "
+    }],
+    "Ip": [{
+        "Disc": "Do A Quick Ip Lookup",
+        "Syntax": "<address> "
+    }],
+    "Ip2skype": [{
+        "Disc": "Get The Users Skype Name",
+        "Syntax": "<ip> "
+    }],
+    "Iphonex": [{
+        "Disc": "Place Them On An Iphone",
+        "Syntax": "[user] "
+    }],
+    "IQ": [{
+        "Disc": "Get Iq Count",
+        "Syntax": "[user] "
+    }],
+    "Jail": [{
+        "Disc": "Put User In Jail",
+        "Syntax": "[jail] "
+    }],
+    "Java": [{
+        "Disc": "Java Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Js": [{
+        "Disc": "Js Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Json": [{
+        "Disc": "Json Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Kanna": [{
+        "Disc": "Random Kanna Images",
+        "Syntax": ""
+    }],
+    "Karen": [{
+        "Disc": "Karen Effect",
+        "Syntax": "[user] "
+    }],
+    "Kick": [{
+        "Disc": "Kick A Member When Mentioned",
+        "Syntax": "<user> "
+    }],
+    "Kiss": [{
+        "Disc": "Mention User To Kiss Them",
+        "Syntax": "<user> "
+    }],
+    "Koalafact": [{
+        "Disc": "Random Koala Facts",
+        "Syntax": ""
+    }],
+    "Leavegroups": [{
+        "Disc": "Leaves All Groups You're In",
+        "Syntax": ""
+    }],
+    "Leaveservers": [{
+        "Disc": "Leaves All Servers You're In",
+        "Syntax": ""
+    }],
+    "Lennyspiral": [{
+        "Disc": "Spiral Of Lennies In Chat",
+        "Syntax": ""
+    }],
+    "Linkbackup": [{
+        "Disc": "Create Site Live Backup",
+        "Syntax": "<link> "
+    }],
+    "Listening": [{
+        "Disc": "Listening Status",
+        "Syntax": "<text> "
+    }],
+    "Logchannel": [{
+        "Disc": "Logs Incoming Channel Messages To Logs\\Channellogs.Txt And Webhook",
+        "Syntax": "<channel_id> "
+    }],
+    "Lolijail": [{
+        "Disc": "Send Them Straight To Jail",
+        "Syntax": "[user] "
+    }],
+    "Lua": [{
+        "Disc": "Lua Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Magik": [{
+        "Disc": "Magik Effect",
+        "Syntax": "[user] "
+    }],
+    "Massban": [{
+        "Disc": "Massively Ban The Server",
+        "Syntax": ""
+    }],
+    "Masschannels": [{
+        "Disc": "Spam Create Channels",
+        "Syntax": "<name> <amount> "
+    }],
+    "Massdm": [{
+        "Disc": "Message The Whole Server",
+        "Syntax": "<delay> <message> "
+    }],
+    "Masskick": [{
+        "Disc": "Massively Kick The Server",
+        "Syntax": ""
+    }],
+    "Massmutualping": [{
+        "Disc": "Gping User In All Mutual Server Chats",
+        "Syntax": "<user> "
+    }],
+    "Massroles": [{
+        "Disc": "Spam Create Roles",
+        "Syntax": "<amount> <name> "
+    }],
+    "Mcahievement": [{
+        "Disc": "Mcachievement Meme",
+        "Syntax": "<text> "
+    }],
+    "Meme": [{
+        "Disc": "Generate A Random Meme",
+        "Syntax": ""
+    }],
+    "Minesweeper": [{
+        "Disc": "Play A Minesweeper Game",
+        "Syntax": ""
+    }],
+    "Misc": [{
+        "Disc": "Misc Commands",
+        "Syntax": "[Page] "
+    }],
+    "Missionpassed": [{
+        "Disc": "Missionpassed Effect",
+        "Syntax": "[user] "
+    }],
+    "Mockuser": [{
+        "Disc": "Creates A Webhook And Sends Text",
+        "Syntax": "<user> <text> "
+    }],
+    "Monkey": [{
+        "Disc": "Monkify Your Words",
+        "Syntax": "<text> "
+    }],
+    "Mute": [{
+        "Disc": "Deletes Any Messages The User Sends",
+        "Syntax": "<user> "
+    }],
+    "Neko": [{
+        "Disc": "Send A Neko Image",
+        "Syntax": ""
+    }],
+    "Nickmember": [{
+        "Disc": "Change The Users Name",
+        "Syntax": "<user> <nick> "
+    }],
+    "Nitrogen": [{
+        "Disc": "Generate A Nitro Code",
+        "Syntax": "[amount] "
+    }],
+    "Nitrosniper": [{
+        "Disc": "Toggle Nitrosniper On And Off",
+        "Syntax": ""
+    }],
+    "Nitrowebhook": [{
+        "Disc": "Sets Nitro Sniper Webhook",
+        "Syntax": "<url> "
+    }],
+    "Noleave": [{
+        "Disc": "Doesnt Allow Them To Leave The Groupchat",
+        "Syntax": "<user> "
+    }],
+    "Normalmode": [{
+        "Disc": "Better Than Lightmode",
+        "Syntax": ""
+    }],
+    "Notifications": [{
+        "Disc": "Toggle Windows Notifications On And Off",
+        "Syntax": ""
+    }],
+    "Nsfw": [{
+        "Disc": "Nsfw Commands",
+        "Syntax": ""
+    }],
+    "Nuke": [{
+        "Disc": "Nuke A Channel Clean And Fresh",
+        "Syntax": ""
+    }],
+    "Openfolder": [{
+        "Disc": "Opens Rise Folder",
+        "Syntax": ""
+    }],
+    "Pandafact": [{
+        "Disc": "Random Panda Facts",
+        "Syntax": ""
+    }],
+    "Passwordgen": [{
+        "Disc": "Generate A Random Password",
+        "Syntax": ""
+    }],
+    "Pat": [{
+        "Disc": "Mention User To Pat Them",
+        "Syntax": "<user> "
+    }],
+    "Payment": [{
+        "Disc": "Payment Commands",
+        "Syntax": ""
+    }],
+    "Paypal": [{
+        "Disc": "Send Paypal Request",
+        "Syntax": "<amount> "
+    }],
+    "Phonelookup": [{
+        "Disc": "Gather Numbers Info",
+        "Syntax": "<number> "
+    }],
+    "Php": [{
+        "Disc": "Php Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Pikachu": [{
+        "Disc": "Pikachu Meme",
+        "Syntax": "<text> "
+    }],
+    "Ping": [{
+        "Disc": "Sends Your Ping In Chat",
+        "Syntax": ""
+    }],
+    "Pingip": [{
+        "Disc": "Check If An Ip Is Up",
+        "Syntax": "<ip> "
+    }],
+    "Playersonline": [{
+        "Disc": "Display Hypixel Lobbies Count",
+        "Syntax": ""
+    }],
+    "Poll": [{
+        "Disc": "Start A Poll",
+        "Syntax": "<text> "
+    }],
+    "Porn": [{
+        "Disc": "Random Porn Image",
+        "Syntax": ""
+    }],
+    "Portscan": [{
+        "Disc": "Check Ports Of An Ip",
+        "Syntax": "<ip> "
+    }],
+    "Prefix": [{
+        "Disc": "Change Prefix",
+        "Syntax": "<text> "
+    }],
+    "Presidentialalert": [{
+        "Disc": "Presidentialalert Meme",
+        "Syntax": "<text> "
+    }],
+    "Protection": [{
+        "Disc": "Protection Commands",
+        "Syntax": ""
+    }],
+    "Proxscrape": [{
+        "Disc": "Scrape Elite Proxies",
+        "Syntax": "<amount> <type> "
+    }],
+    "Proxyflood": [{
+        "Disc": "Floods A Site (With Elite Proxies) [Recommended 500 Threads]",
+        "Syntax": "<amount> <threads> <url> "
+    }],
+    "Ps4": [{
+        "Disc": "Ps4 Effect",
+        "Syntax": "[user] "
+    }],
+    "Purge": [{
+        "Disc": "Delete Your Messages",
+        "Syntax": "<amount> "
+    }],
+    "Pussy": [{
+        "Disc": "Random Pussy Image",
+        "Syntax": ""
+    }],
+    "Py": [{
+        "Disc": "Py Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Py2exe": [{
+        "Disc": "Convert To Exe",
+        "Syntax": "<pyfile> "
+    }],
+    "Qrcode": [{
+        "Disc": "Generate A Scanable Qr Code",
+        "Syntax": "<text> "
+    }],
+    "Raid": [{
+        "Disc": "Raid Commands",
+        "Syntax": ""
+    }],
+    "Rainbowembed": [{
+        "Disc": "Custom Rainbow Embed",
+        "Syntax": "<text> "
+    }],
+    "Rainbowrole": [{
+        "Disc": "Makes The Role Change Colors",
+        "Syntax": "<amount> <delay> <role> "
+    }],
+    "Randomscreenshot": [{
+        "Disc": "Generate A Random Prnt Screenshot",
+        "Syntax": ""
+    }],
+    "Rcrash": [{
+        "Disc": "Crash Channel With Tokens",
+        "Syntax": "<channel ID> <amount> "
+    }],
+    "Rdecrypt": [{
+        "Disc": "Decrypt Text In Rise Encryption",
+        "Syntax": "<text> "
+    }],
+    "Reactadd": [{
+        "Disc": "Add User To Auto Reaction",
+        "Syntax": "<user> [emoji] "
+    }],
+    "Reactlist": [{
+        "Disc": "Display Who's In Your Auto Reactions",
+        "Syntax": ""
+    }],
+    "Reactremove": [{
+        "Disc": "Remove User From Auto Reaction",
+        "Syntax": "<user> "
+    }],
+    "Readall": [{
+        "Disc": "Marks All Guilds As Read",
+        "Syntax": ""
+    }],
+    "Realnitrogen": [{
+        "Disc": "Generate A Totally Real Nitro Code",
+        "Syntax": ""
+    }],
+    "Recoverservers": [{
+        "Disc": "Joins All Your Backed Up Servers",
+        "Syntax": ""
+    }],
+    "Regionalcopy": [{
+        "Disc": "Regional Mocks User",
+        "Syntax": "<user> "
+    }],
+    "Regionalstopcopy": [{
+        "Disc": "Stop Mocking User With Regional Text",
+        "Syntax": ""
+    }],
+    "Rejected": [{
+        "Disc": "Rejected Effect",
+        "Syntax": "[user] "
+    }],
+    "Removefriends": [{
+        "Disc": "Removes All Friends On Your Added List",
+        "Syntax": ""
+    }],
+    "Removenick": [{
+        "Disc": "Resets The Users Nickname",
+        "Syntax": "<user> "
+    }],
+    "Removerole": [{
+        "Disc": "Remove Mentioned Users Role",
+        "Syntax": "<user> <role> "
+    }],
+    "Renamechannels": [{
+        "Disc": "Rename Channels In A Server",
+        "Syntax": "<text> "
+    }],
+    "Renamegroups": [{
+        "Disc": "Rename All Groups Youre In",
+        "Syntax": "<name> "
+    }],
+    "renamerole": [{
+        "Disc": "Change The Roles Name",
+        "Syntax": "<roleid> <name> "
+    }],
+    "Renameroles": [{
+        "Disc": "Rename All Roles In A Server",
+        "Syntax": "<name> "
+    }],
+    "Rencrypt": [{
+        "Disc": "Encrypt Text With Rise Encryption",
+        "Syntax": "<text> "
+    }],
+    "Reputation": [{
+        "Disc": "Check If A Site Is Safe To Visit",
+        "Syntax": "<link> "
+    }],
+    "Resend": [{
+        "Disc": "Resends Last Used Command",
+        "Syntax": ""
+    }],
+    "Restart": [{
+        "Disc": "Restarts Rise",
+        "Syntax": ""
+    }],
+    "Reverse": [{
+        "Disc": "Reverse What You Say In Chat",
+        "Syntax": "<message> "
+    }],
+    "Rfriendrequest": [{
+        "Disc": "Make All Raid Tokens Add Spam Friend Request",
+        "Syntax": "<userid> "
+    }],
+    "Riskymode": [{
+        "Disc": "Toggles Codeblocks Or Embeds, Note Few Cmds Dont Work With Codeblocks",
+        "Syntax": ""
+    }],
+    "Rjoin": [{
+        "Disc": "Make All Raid Tokens Join Server (No Captcha Support)",
+        "Syntax": "<inviteregex> "
+    }],
+    "Rleave": [{
+        "Disc": "Make All Raid Tokens Leave The Server",
+        "Syntax": ""
+    }],
+    "Rmassping": [{
+        "Disc": "All Raid Tokens Mass Ping Users (You Must Use This In The Server To Work)",
+        "Syntax": "[amount] "
+    }],
+    "Roast": [{
+        "Disc": "Roast People In Chat",
+        "Syntax": ""
+    }],
+    "Roleinfo": [{
+        "Disc": "Looks Up Info On The Current Role",
+        "Syntax": "<role> "
+    }],
+    "Rolenuke": [{
+        "Disc": "Massively Delete Roles In A Server",
+        "Syntax": ""
+    }],
+    "Rpc": [{
+        "Disc": "Toggle Rpc On And Off",
+        "Syntax": ""
+    }],
+    "Rreact": [{
+        "Disc": "Make All Raid Tokens React To Message",
+        "Syntax": "<messageid> <channelid> <emoji> "
+    }],
+    "Rremovefriendrequest": [{
+        "Disc": "Make All Raid Tokens Remove Spam Friend Request",
+        "Syntax": "<userid> "
+    }],
+    "Rspam": [{
+        "Disc": "Make All Raid Tokens Spam Chat",
+        "Syntax": "<channel ID> <amount> <message> "
+    }],
+    "Ruby": [{
+        "Disc": "Ruby Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Rule34": [{
+        "Disc": "Send A Post From The Rule34 Site",
+        "Syntax": ""
+    }],
+    "Rust": [{
+        "Disc": "Rust Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Scary": [{
+        "Disc": "Scary Effect",
+        "Syntax": "[user] "
+    }],
+    "Screenshot": [{
+        "Disc": "Sends A Screenshot Of The Inputted Website",
+        "Syntax": "<link> "
+    }],
+    "Screenshotpc": [{
+        "Disc": "Sends A Screenshot Of Your Whole Screen",
+        "Syntax": ""
+    }],
+    "Seal": [{
+        "Disc": "Seal Meme",
+        "Syntax": "<text> "
+    }],
+    "search": [{
+        "Disc": "Search For Specific Commands",
+        "Syntax": "<text> "
+    }],
+    "Searchavatar": [{
+        "Disc": "Mention User To Reverse Search Their Avatar",
+        "Syntax": "[user] "
+    }],
+    "Senddebugging": [{
+        "Disc": "Toggle Send Debugging On And Off",
+        "Syntax": ""
+    }],
+    "Serverexport": [{
+        "Disc": "Backup All Your Servers Into A Txt",
+        "Syntax": ""
+    }],
+    "Serverinfo": [{
+        "Disc": "Looks Up Info In The Current Server Used",
+        "Syntax": ""
+    }],
+    "Servernuke": [{
+        "Disc": "Completely Ruin A Server",
+        "Syntax": ""
+    }],
+    "Serverperms": [{
+        "Disc": "Tells You The Perms You Have In All Servers",
+        "Syntax": ""
+    }],
+    "Serverspam": [{
+        "Disc": "Creates Servers (On Your Account)",
+        "Syntax": "<amount> <name> "
+    }],
+    "Settings": [{
+        "Disc": "Displays Active Settings",
+        "Syntax": ""
+    }],
+    "Setuphooks": [{
+        "Disc": "Set Up All Webhooks In Config.Json For Your Server",
+        "Syntax": ""
+    }],
+    "Setupstalkers": [{
+        "Disc": "Set Up All Webhooks In Stalker.Json For Your Server",
+        "Syntax": ""
+    }],
+    "Sfw": [{
+        "Disc": "Sfw Commands",
+        "Syntax": ""
+    }],
+    "Shareadd": [{
+        "Disc": "Share Your Sb Commands With The User",
+        "Syntax": "<user> "
+    }],
+    "Shareremove": [{
+        "Disc": "Delete User From Your Shared Commands",
+        "Syntax": "<user> "
+    }],
+    "Skeleton": [{
+        "Disc": "Skeleton Meme",
+        "Syntax": "<text> "
+    }],
+    "Skipmenu": [{
+        "Disc": "Toggle Skip Menu On And Off",
+        "Syntax": ""
+    }],
+    "Skyperesolve": [{
+        "Disc": "Resolve The Users Ip",
+        "Syntax": "<username> "
+    }],
+    "Slap": [{
+        "Disc": "Mention User To Slap Them",
+        "Syntax": "<user> "
+    }],
+    "Slowmode": [{
+        "Disc": "Put Slowmode On The Channel",
+        "Syntax": "<time> "
+    }],
+    "Snipe": [{
+        "Disc": "Snipes Last Deleted Message",
+        "Syntax": ""
+    }],
+    "Sniper": [{
+        "Disc": "Sniper Effect",
+        "Syntax": "[user] "
+    }],
+    "Softban": [{
+        "Disc": "Bans And Unbans Mentioned User",
+        "Syntax": "<user> "
+    }],
+    "Soulja": [{
+        "Disc": "Generate Random Soulja Gif",
+        "Syntax": ""
+    }],
+    "Spam": [{
+        "Disc": "Spam Your Message",
+        "Syntax": "<amount> <delay> <text> "
+    }],
+    "Spamreact": [{
+        "Disc": "Spam Emoji's On Message",
+        "Syntax": "<message_id> "
+    }],
+    "Spamwebhook": [{
+        "Disc": "Spam A (Given Webhook)",
+        "Syntax": "<url> <amount> <message> "
+    }],
+    "Spank": [{
+        "Disc": "Generate Some Hentai Spanking",
+        "Syntax": ""
+    }],
+    "Specs": [{
+        "Disc": "Displays Your Pc Specs",
+        "Syntax": ""
+    }],
+    "Spoiler": [{
+        "Disc": "Spoiler Your Text/Sentence",
+        "Syntax": "<text> "
+    }],
+    "Spongebob": [{
+        "Disc": "Spongebob Meme",
+        "Syntax": "<text> "
+    }],
+    "Spongesmirk": [{
+        "Disc": "Spongesmirk Meme",
+        "Syntax": "<text> <text2> "
+    }],
+    "Spoofurl": [{
+        "Disc": "Spoofs A Link",
+        "Syntax": "<fakelink> <reallink> "
+    }],
+    "Sql": [{
+        "Disc": "Sql Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Staffdetection": [{
+        "Disc": "Toggle Staff Detection On And Off",
+        "Syntax": ""
+    }],
+    "Staffwebhook": [{
+        "Disc": "Sets Staff Detection Webhook",
+        "Syntax": "<url> "
+    }],
+    "Stalk": [{
+        "Disc": "See Every Account Change The User Makes",
+        "Syntax": "<user> "
+    }],
+    "Stalkguild": [{
+        "Disc": "Stalk Guild Name/Icon Changes",
+        "Syntax": "<guildid> "
+    }],
+    "Stalklist": [{
+        "Disc": "Displays Current Stalked Users",
+        "Syntax": ""
+    }],
+    "Staring": [{
+        "Disc": "Show A Couple Staring Back",
+        "Syntax": "<user> <user2> "
+    }],
+    "Startupwebhook": [{
+        "Disc": "Sets Startup Webhook",
+        "Syntax": "<url> "
+    }],
+    "Stats": [{
+        "Disc": "View Bot Statistics",
+        "Syntax": ""
+    }],
+    "Stealtheme": [{
+        "Disc": "Steals The Users Theme",
+        "Syntax": "<message_id> "
+    }],
+    "Steamcard": [{
+        "Disc": "Steamcard Effect",
+        "Syntax": "[user] "
+    }],
+    "Stickbug": [{
+        "Disc": "Stickbug Their Pfp",
+        "Syntax": "[user] "
+    }],
+    "Stonks": [{
+        "Disc": "Stonks Meme",
+        "Syntax": "<text> "
+    }],
+    "Stonkuser": [{
+        "Disc": "Stonks Meme",
+        "Syntax": "[user] "
+    }],
+    "Stopcopy": [{
+        "Disc": "Stops Mocking User",
+        "Syntax": "<user> "
+    }],
+    "Stoplogchannel": [{
+        "Disc": "Stop Logging Incoming Channel Messages To Channellogs.Txt And Webhook",
+        "Syntax": "<channel_id> "
+    }],
+    "Stoppurge": [{
+        "Disc": "Stops Purging Messages",
+        "Syntax": ""
+    }],
+    "Streaming": [{
+        "Disc": "Streaming Status",
+        "Syntax": "<link> <text> "
+    }],
+    "Subdomains": [{
+        "Disc": "Gather Subdomains On Link",
+        "Syntax": "<link> "
+    }],
+    "Supremacy": [{
+        "Disc": "Supremacy Meme",
+        "Syntax": "<text> "
+    }],
+    "Sussy": [{
+        "Disc": "So Sussy!",
+        "Syntax": "[user] "
+    }],
+    "Tentacle": [{
+        "Disc": "Weird Ass Tentacle Porn",
+        "Syntax": ""
+    }],
+    "Text": [{
+        "Disc": "Text Commands",
+        "Syntax": "[Page] "
+    }],
+    "Textparser": [{
+        "Disc": "Get Text From Image",
+        "Syntax": "<imageurl> "
+    }],
+    "Thanos": [{
+        "Disc": "Thanos Effect",
+        "Syntax": "[user] "
+    }],
+    "Theme": [{
+        "Disc": "Select A Theme",
+        "Syntax": "<name> "
+    }],
+    "Themelist": [{
+        "Disc": "Displays All Your Themes",
+        "Syntax": ""
+    }],
+    "Thigh": [{
+        "Disc": "Random Thighs Image",
+        "Syntax": ""
+    }],
+    "Tickle": [{
+        "Disc": "Mention User To Tickle Them",
+        "Syntax": "<user> "
+    }],
+    "Timedmessage": [{
+        "Disc": "Send A Timed Message",
+        "Syntax": "<text> "
+    }],
+    "Timer": [{
+        "Disc": "Set A Timer",
+        "Syntax": "<10s/10m/10h> <user> "
+    }],
+    "Tiny": [{
+        "Disc": "Tiny Your Text",
+        "Syntax": "<text> "
+    }],
+    "Tokengen": [{
+        "Disc": "Generate A Random Discord Token",
+        "Syntax": ""
+    }],
+    "Tokengrabber": [{
+        "Disc": "Create A Token Logger For A Victim",
+        "Syntax": "<webhook> "
+    }],
+    "Tokeninfo": [{
+        "Disc": "Find Information On Account",
+        "Syntax": "<token> "
+    }],
+    "Tools": [{
+        "Disc": "Tool Commands",
+        "Syntax": ""
+    }],
+    "Trade": [{
+        "Disc": "Trade Meme",
+        "Syntax": "<text> <text2> "
+    }],
+    "Translate": [{
+        "Disc": "Translate A Message",
+        "Syntax": "<language> <text> "
+    }],
+    "Trap": [{
+        "Disc": "Send A Trap Image",
+        "Syntax": ""
+    }],
+    "Trash": [{
+        "Disc": "Put User In Trash",
+        "Syntax": "[user] "
+    }],
+    "Triggered": [{
+        "Disc": "Triggered Effect",
+        "Syntax": "[user] "
+    }],
+    "Trinity": [{
+        "Disc": "Trinity Effect",
+        "Syntax": "[user] "
+    }],
+    "Troop": [{
+        "Disc": "Troop Meme",
+        "Syntax": "<text> "
+    }],
+    "Trump": [{
+        "Disc": "Trump Meme",
+        "Syntax": "<text> "
+    }],
+    "Tweet": [{
+        "Disc": "Create A Fake Tweet",
+        "Syntax": "<username> <text> "
+    }],
+    "Typingalerts": [{
+        "Disc": "Toggle Typing Alerts On And Off",
+        "Syntax": ""
+    }],
+    "Unbinary": [{
+        "Disc": "Unconvert Binary",
+        "Syntax": "<text> "
+    }],
+    "Unfunny": [{
+        "Disc": "Tells People How Unfunny They Are",
+        "Syntax": ""
+    }],
+    "Unmute": [{
+        "Disc": "Removes Mute On A User",
+        "Syntax": "<user> "
+    }],
+    "Uno": [{
+        "Disc": "Uno Meme",
+        "Syntax": "<text1> <text2> "
+    }],
+    "Unstalk": [{
+        "Disc": "Remove Them From Stalking Watcher",
+        "Syntax": "<user> "
+    }],
+    "Unstalkguild": [{
+        "Disc": "Remove Them From Guild Stalking Watcher",
+        "Syntax": "<guildid> "
+    }],
+    "Uptime": [{
+        "Disc": "Display Running Uptime",
+        "Syntax": ""
+    }],
+    "Urban": [{
+        "Disc": "Lookup Word In The Urbandict",
+        "Syntax": "<word> "
+    }],
+    "Urlshorten": [{
+        "Disc": "Shortens Url",
+        "Syntax": "<link> "
+    }],
+    "Useful": [{
+        "Disc": "Useful Commands",
+        "Syntax": "[Page] "
+    }],
+    "Userbanner": [{
+        "Disc": "Get Users Banner",
+        "Syntax": "[user] "
+    }],
+    "Userbio": [{
+        "Disc": "Get User Bio",
+        "Syntax": "[user] "
+    }],
+    "Userinfo": [{
+        "Disc": "Retrieve Info On A User",
+        "Syntax": "[user] "
+    }],
+    "Userlookup": [{
+        "Disc": "Retrieve Info On The Given Id",
+        "Syntax": "<id> "
+    }],
+    "Venmo": [{
+        "Disc": "Send Venmo Request",
+        "Syntax": "<amount> "
+    }],
+    "Version": [{
+        "Disc": "Displays The Current Version Of Rise You Are Using",
+        "Syntax": ""
+    }],
+    "Voiceroast": [{
+        "Disc": "Roasts Someone With Intelligence",
+        "Syntax": ""
+    }],
+    "Wanted": [{
+        "Disc": "Wanted Effect",
+        "Syntax": "[user] "
+    }],
+    "Warroast": [{
+        "Disc": "Roasts Someone With Your Coolness",
+        "Syntax": ""
+    }],
+    "Wasted": [{
+        "Disc": "Wasted Effect",
+        "Syntax": "[user] "
+    }],
+    "Watchdogstats": [{
+        "Disc": "View Watchdog Bans",
+        "Syntax": ""
+    }],
+    "Watching": [{
+        "Disc": "Watching Status",
+        "Syntax": "<text> "
+    }],
+    "Weather": [{
+        "Disc": "Check The Weather Of A Certain Area",
+        "Syntax": ""
+    }],
+    "Webheaders": [{
+        "Disc": "Retrieve Site Headers",
+        "Syntax": "<domain> "
+    }],
+    "Whatboy": [{
+        "Disc": "Generate A User Dox",
+        "Syntax": "<user> "
+    }],
+    "Whois": [{
+        "Disc": "Quick Whois Lookup",
+        "Syntax": "<domain> "
+    }],
+    "Wink": [{
+        "Disc": "Mention User To Wink At Them",
+        "Syntax": "<user> "
+    }],
+    "Woahjamal": [{
+        "Disc": "Woahjamal Meme",
+        "Syntax": "<text> "
+    }],
+    "Wordadd": [{
+        "Disc": "Add To The Word Sniper",
+        "Syntax": "<text> "
+    }],
+    "Wordsniper": [{
+        "Disc": "Toggle Word Sniper On And Off",
+        "Syntax": ""
+    }],
+    "Wordwebhook": [{
+        "Disc": "Sets Word Sniper Webhook",
+        "Syntax": "<url> "
+    }],
+    "Wyr": [{
+        "Disc": "Create A Would You Rather Question",
+        "Syntax": ""
+    }],
+    "xml": [{
+        "Disc": "Xml Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Yaml": [{
+        "Disc": "Yaml Codeblock",
+        "Syntax": "<text> "
+    }],
+    "Yaoi": [{
+        "Disc": "Gen Anime Yaoi",
+        "Syntax": ""
+    }],
+    "Yiff": [{
+        "Disc": "Some Yiff For You",
+        "Syntax": ""
+    }],
+    "Yoda": [{
+        "Disc": "Yoda Meme",
+        "Syntax": "<text> <text2> "
+    }],
+    "Ytmp3": [{
+        "Disc": "Youtube To Mp3",
+        "Syntax": "<YT_ID> "
+    }],
+    "Ytmp4": [{
+        "Disc": "Youtube To Mp4",
+        "Syntax": "<url> "
+    }]
 }
