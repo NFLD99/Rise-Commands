@@ -11,81 +11,43 @@
 @var  text  Secondary-Colour  "Secondary Colour[rrr,ggg,bbb]"   '0,0,0'
 @var  text  Tertiary-Colour   "Tertiary Colour[rrr,ggg,bbb]"    '101, 165, 140'
 @var  text  Quaternary-Colour "Quaternary Colour[rrr,ggg,bbb]"  '33, 45, 65'
-@version 2.0.0
+@version 2.2.0
 ==/UserStyle== */
 
 @-moz-document domain("riseselfbot.xyz") {
-    html {
-        background: var(--Bkg) 50% 50%/cover no-repeat fixed !important;
+    @keyframes flashlight {
+        0% {
+            background-position: -500%;
+        }
+        100% {
+            background-position: 500%;
+        }
     }
-    body {
-        background: rgba(var(--Secondary-Colour), 0.75) !important;
-    }
-    .box-purchase, .box-review, .box, .box:not(.overview-right), .login-container, .updates-itm, .DiscussionListItem:hover, .Hero, .Post, [class*="showMe"]>center>.box.full {
-        background: rgba(var(--Quaternary-Colour), 0.5) !important;
-        border: 1px solid rgb(var(--Main-Colour));
-        box-shadow: 0px 0px 10px 1px rgba(var(--Main-Colour), 1), inset 0px 0px 10px 1px rgba(var(--Main-Colour), 1) !important;
-    }
+    
      ::-webkit-scrollbar {
         width: 10px;
     }
-     ::-webkit-scrollbar-track {
-        background: rgb(var(--Secondary-Colour));
-    }
-     ::-webkit-scrollbar-thumb:not(:hover) {
-        background: rgba(var(--Main-Colour), 0);
-        border-radius: 10px;
-        border: 1px solid rgba(var(--Main-Colour), 0.5);
-    }
+    
      ::-webkit-scrollbar-thumb:hover {
         background: rgba(var(--Main-Colour), 0);
         border-radius: 10px;
         border: 1px solid rgba(var(--Main-Colour), 0.1);
     }
-    .modal-content {
-        background: var(--Modal-Bkg) 50% 50%/cover no-repeat fixed !important;
-        border: 1px solid rgba(var(--Main-Colour), 1);
-        box-shadow: 0px 0px 10px 1px rgba(var(--Main-Colour), 1), inset 0px 0px 10px 1px rgba(var(--Main-Colour), 1);
+    
+     ::-webkit-scrollbar-thumb:not(:hover) {
+        background: rgba(var(--Main-Colour), 0);
+        border-radius: 10px;
+        border: 1px solid rgba(var(--Main-Colour), 0.5);
     }
-    td {
-        background: rgba(var(--Secondary-Colour), 0.5) !important;
+    
+     ::-webkit-scrollbar-track {
+        background: rgb(var(--Secondary-Colour));
     }
-    .overview {
-        margin-top: 0px;
-        padding-top: 40px;
-    }
-    .overview-right .box.full {
-        background: none !important;
-        box-shadow: none !important;
-        filter: none !important;
-    }
-    .button-index {
-        background: rgba(var(--Secondary-Colour), 0.5);
-        box-shadow: 0px 0px 10px 1px rgba(var(--Main-Colour), 1), inset 0px 0px 10px 1px rgba(var(--Main-Colour), 1);
-    }
-    .button:hover, [class="button-hdr"]:hover, .login-container>form>button:hover, .button-index:hover {
-        background: rgba(var(--Main-Colour), 0.5) !important;
-        bottom: 0px;
-        box-shadow: 0px 0px 10px 1px rgba(var(--Main-Colour), 1), inset 0px 0px 10px 1px rgba(var(--Main-Colour), 1);
-        color: rgb(var(--Tertiary-Colour)) !important;
-        transition: background-color 0.2s ease-in-out, bottom 0.2s ease-in-out, color 0.1s ease-in-out, box-shadow 0.15s ease-in-out;
-    }
-    .button:not(:hover), [class="button-hdr"]:not(:hover), .login-container>form>button:not(:hover), .button-index:not(:hover) {
-        animation: none;
-        background: rgba(var(--Main-Colour), 0.2) !important;
-        box-shadow: 0px 0px 10px 1px rgba(var(--Main-Colour), 0.2), inset 0px 0px 10px 1px rgba(var(--Main-Colour), 0.2);
-        color: rgba(var(--Main-Colour), 1) !important;
-        transition: background-color 0.2s ease-in-out, bottom 0.2s ease-in-out, color 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
-    }
-    .icon, .icon2, .icon3, [style="color: #1565c0"], [style="color:#1565c0"] {
+    
+    .Afrux-NewsWidget, .App .DiscussionListItem-title, .Button, .Dropdown-menu, .ForumStatistics, .OnlineUsers-title, .Post-header a, .Post-header, .Search-input, .TagLabel.colored .TagLabel-text, .unread .DiscussionListItem-count, a, body, p, span, ul, .inner>h1, .box, [style="color: rgb(55, 148, 255)"], .modal-content, unn, hwn, exn, lln {
         color: rgba(var(--Main-Colour), 1) !important;
     }
-    .icon2 p, .updates-itm.blue, h3, h6, .box-review {
-        color: rgba(var(--Tertiary-Colour), 1) !important;
-    }
-    body {
-        min-height: 100vh !important;
-    }
+    
     .AfruxWidgets-Widget-conten, .App-header, .Button--primary, .Button, .disabled .Scrubber-bar, .DiscussionHero .TagsLabel .TagLabel.colored, .DiscussionListItem, .FormControl, .sideNav .Dropdown--select .Dropdown-menu>li:hover>a .Button-icon, .sideNav .Dropdown--select .Dropdown-menu>li.active>a .Button-icon, .sideNav .Dropdown--select .Dropdown-menu>li.active>a, .TagLabel {
         animation: none;
         background: rgba(var(--Main-Colour), 0.2) !important;
@@ -93,6 +55,27 @@
         color: rgba(var(--Main-Colour), 1) !important;
         transition: background-color 0.2s ease-in-out, bottom 0.2s ease-in-out, color 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
     }
+    
+    .AfruxWidgets-Widget-conten, .App-header, .disabled .Scrubber-bar, .DiscussionHero .TagsLabel .TagLabel.colored, .DiscussionListItem, .FormControl, .sideNav .Dropdown--select .Dropdown-menu>li:hover>a .Button-icon, .TagLabel {
+        background: rgba(var(--Secondary-Colour), 0.5) !important;
+    }
+    
+    .AfruxWidgets-sideNavAlt, .AfruxWidgets-Widget-content, .sideNav {
+        background: rgba(var(--Secondary-Colour), 0.5) !important;
+        border-radius: 15px !important;
+        box-shadow: 0px 0px 10px 1px rgba(var(--Main-Colour), 0.2), inset 0px 0px 10px 1px rgba(var(--Main-Colour), 0.2);
+    }
+    
+    .App-footer {
+        background: transparent !important;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .Asirem-footerWaves {
+        display: none;
+    }
+    
     .Button--primary:hover, .Button:hover, .DiscussionListItem--unread .DiscussionListItem-title::after, .FormControl:hover, .PostMention, .sideNav .Dropdown--select .Dropdown-menu>li:hover>a, .UserMention {
         background: rgba(var(--Main-Colour), 0.5) !important;
         bottom: 0px;
@@ -100,72 +83,158 @@
         color: rgb(var(--Tertiary-Colour)) !important;
         transition: background-color 0.2s ease-in-out, bottom 0.2s ease-in-out, color 0.1s ease-in-out, box-shadow 0.15s ease-in-out;
     }
-    .Afrux-NewsWidget, .App .DiscussionListItem-title, .Button, .Dropdown-menu, .ForumStatistics, .OnlineUsers-title, .Post-header a, .Post-header, .Search-input, .TagLabel.colored .TagLabel-text, .unread .DiscussionListItem-count, a, body, p, span, ul, .inner>h1, .box, [style="color: rgb(55, 148, 255)"], .modal-content {
-        color: rgba(var(--Main-Colour), 1) !important;
-    }
-    .AfruxWidgets-sideNavAlt, .AfruxWidgets-Widget-content, .sideNav {
-        background: rgba(var(--Secondary-Colour), 0.5) !important;
-        border-radius: 15px !important;
-        box-shadow: 0px 0px 10px 1px rgba(var(--Main-Colour), 0.2), inset 0px 0px 10px 1px rgba(var(--Main-Colour), 0.2);
-    }
-    .App-footer {
-        background: transparent !important;
-        margin: 0;
-        padding: 0;
-    }
-    .Asirem-footerWaves {
-        display: none;
-    }
+    
     .FormControl:focus {
         border: none;
     }
+    
+    .PostUser-avatar {
+        border: 2px solid rgb(var(--Main-Colour));
+    }
+    
     .UserCard-avatar .Avatar {
         background-position: center;
         background-size: cover;
         border-radius: 0px;
     }
-    .PostUser-avatar {
-        border: 2px solid rgb(var(--Main-Colour));
+    
+    .box-purchase, .box-review, .box, .box:not(.overview-right), .login-container, .updates-itm, .DiscussionListItem:hover, .Hero, .Post, [class*="showMe"]>center>.box.full {
+        background: rgba(var(--Quaternary-Colour), 0.5) !important;
+        border: 1px solid rgb(var(--Main-Colour));
+        box-shadow: 0px 0px 10px 1px rgba(var(--Main-Colour), 1), inset 0px 0px 10px 1px rgba(var(--Main-Colour), 1) !important;
     }
+    
+    .button-index {
+        background: rgba(var(--Secondary-Colour), 0.5);
+        box-shadow: 0px 0px 10px 1px rgba(var(--Main-Colour), 1), inset 0px 0px 10px 1px rgba(var(--Main-Colour), 1);
+    }
+    
+    .button:hover, [class="button-hdr"]:hover, .login-container>form>button:hover, .button-index:hover {
+        background: rgba(var(--Main-Colour), 0.5) !important;
+        bottom: 0px;
+        box-shadow: 0px 0px 10px 1px rgba(var(--Main-Colour), 1), inset 0px 0px 10px 1px rgba(var(--Main-Colour), 1);
+        color: rgb(var(--Tertiary-Colour)) !important;
+        transition: background-color 0.2s ease-in-out, bottom 0.2s ease-in-out, color 0.1s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    
+    .button:not(:hover), [class="button-hdr"]:not(:hover), .login-container>form>button:not(:hover), .button-index:not(:hover) {
+        animation: none;
+        background: rgba(var(--Main-Colour), 0.2) !important;
+        box-shadow: 0px 0px 10px 1px rgba(var(--Main-Colour), 0.2), inset 0px 0px 10px 1px rgba(var(--Main-Colour), 0.2);
+        color: rgba(var(--Main-Colour), 1) !important;
+        transition: background-color 0.2s ease-in-out, bottom 0.2s ease-in-out, color 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+    
+    .icon, .icon2, .icon3, [style="color: #1565c0"], [style="color:#1565c0"] {
+        color: rgba(var(--Main-Colour), 1) !important;
+    }
+    
+    .icon2 p, .updates-itm.blue, h3, h6, .box-review {
+        color: rgba(var(--Tertiary-Colour), 1) !important;
+    }
+    
+    .modal-body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .modal-content {
+        background: var(--Modal-Bkg) 50% 50%/cover no-repeat fixed !important;
+        border: 1px solid rgba(var(--Main-Colour), 1);
+        box-shadow: 0px 0px 10px 1px rgba(var(--Main-Colour), 1), inset 0px 0px 10px 1px rgba(var(--Main-Colour), 1);
+    }
+    
+    .modal-dialog {
+        max-width: 50vw;
+    }
+    
+    .overview {
+        margin-top: 0px;
+        padding-top: 40px;
+    }
+    
+    .overview-right .box.full {
+        background: none !important;
+        box-shadow: none !important;
+        filter: none !important;
+    }
+    
+    .updates-header {
+        margin: auto;
+        padding-top: 20px
+    }
+    
+    .updates-header>.updates-itm {
+        margin-left: auto;
+        margin-right: auto
+        max-width: 25vw;
+    }
+    
+    .updates-itm.blue>h6 {
+        box-shadow: 0 4px 2px -2px rgba(var(--Main-Colour), 1) !important;
+        text-align: center;
+    }
+    
+    .updates-left>.updates-itm.blue>p {
+        box-shadow: 0 4px 2px -2px rgba(var(--Main-Colour), 1) !important;
+    }
+    
+    .updates-right {
+        box-shadow: 0 4px 2px -2px rgba(var(--Main-Colour), 1) !important;
+    }
+    
     [class="UserCard UserCard--popover in"] {
         background-position: center;
         background-size: cover;
         box-shadow: 0px 0px 10px 1px rgba(var(--Main-Colour), 1), inset 0px 0px 10px 1px rgba(var(--Main-Colour), 1);
     }
+    
     [style="background: rgba(0,0,0,0.25); box-shadow: 0 4px 2px -2px rgba(21, 101, 192, 0.85); z-index: 70;"] {
         box-shadow: 0 4px 2px -2px rgba(var(--Main-Colour), 1) !important;
     }
-    .AfruxWidgets-Widget-conten, .App-header, .disabled .Scrubber-bar, .DiscussionHero .TagsLabel .TagLabel.colored, .DiscussionListItem, .FormControl, .sideNav .Dropdown--select .Dropdown-menu>li:hover>a .Button-icon, .TagLabel {
+    
+    body {
+        background: rgba(var(--Secondary-Colour), 0.75) !important;
+    }
+    
+    body {
+        min-height: 100vh !important;
+    }
+    
+    html {
+        background: var(--Bkg) 50% 50%/cover no-repeat fixed !important;
+    }
+    
+    td {
         background: rgba(var(--Secondary-Colour), 0.5) !important;
     }
-    .updates-header {
-        margin: auto;
-        padding-top: 20px
-    }
-    .updates-itm.blue>h6 {
-        box-shadow: 0 4px 2px -2px rgba(var(--Main-Colour), 1) !important;
-        text-align: center;
-    }
-    .updates-left>.updates-itm.blue>p {
-        box-shadow: 0 4px 2px -2px rgba(var(--Main-Colour), 1) !important;
-    }
-    .updates-right {
-        box-shadow: 0 4px 2px -2px rgba(var(--Main-Colour), 1) !important;
-    }
-    .updates-header>.updates-itm {
-        max-width: 25vw;
-        margin-left: auto;
-        margin-right: auto
-    }
+    
     td, .modal-header, .modal-footer {
-        border-color: rgba(var(--Main-Colour), 1);
         background: rgba(var(--Quaternary-Colour), 0.5) !important;
+        border-color: rgba(var(--Main-Colour), 1);
     }
-    .modal-dialog {
-        max-width: 50vw;
+    
+    unn {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(var(--Main-Colour), 0.5);
+        animation: flashlight 3s linear infinite;
+        background-image: linear-gradient(90deg, rgba(var(--Secondary-Colour), 1), rgba(var(--Main-Colour), 1), rgba(var(--Secondary-Colour), 1));
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background: none;
+        overflow: hidden;
+        position: relative;
     }
-    .modal-body {
-        margin-right: auto;
-        margin-left: auto;
+    
+    unn2 {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(var(--Main-Colour), 0.5);
+        animation: flashlight 3s linear infinite alternate;
+        background-image: linear-gradient(90deg, rgba(var(--Secondary-Colour), 1), rgba(var(--Main-Colour), 1), rgba(var(--Secondary-Colour), 1));
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background: none;
+        overflow: hidden;
+        position: relative;
     }
 }
