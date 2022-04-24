@@ -4,7 +4,7 @@
 @name Theme Test
 @namespace https://github.com/NFLD99
 @preprocessor default
-@updateURL https://github.com/octocat/Spoon-Knife/my-style.user.css
+@updateURL https://raw.githubusercontent.com/NFLD99/Rise-Commands/main/StylusStyles/rise.user.css
 @var  text  Bkg               "Page Background"                'url(https://riseselfbot.xyz/images/bkg.jpg)'
 @var  text  Main-Colour       "Main Colour [rrr,ggg,bbb]"      '21, 101, 192'
 @var  text  Modal-Bkg         "Modal Background"               'url(https://riseselfbot.xyz/images/bkg.jpg)'
