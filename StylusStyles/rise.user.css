@@ -5,13 +5,13 @@
 @namespace https://github.com/NFLD99
 @preprocessor default
 @updateURL https://raw.githubusercontent.com/NFLD99/Rise-Commands/main/StylusStyles/rise.user.css
-@var  text  Bkg               "Page Background"                 'url(https://riseselfbot.xyz/images/bkg.jpg)'
-@var  text  Main-Colour       "Main Colour [rrr,ggg,bbb]"       '21, 101, 192'
-@var  text  Modal-Bkg         "Modal Background"                'url(https://riseselfbot.xyz/images/bkg.jpg)'
+@var  text  Bkg               "Page Background"                 'url(https://uploads.nfld99.com/fbjyo7lfcy.png)'
+@var  text  Modal-Bkg         "Modal Background"                'url(https://uploads.nfld99.com/fbjyo7lfcy.png)'
+@var  text  Main-Colour       "Main Colour [rrr,ggg,bbb]"       '198, 99, 110'
 @var  text  Secondary-Colour  "Secondary Colour[rrr,ggg,bbb]"   '0,0,0'
-@var  text  Tertiary-Colour   "Tertiary Colour[rrr,ggg,bbb]"    '255, 255, 255'
-@var  text  Quaternary-Colour "Quaternary Colour[rrr,ggg,bbb]"  '21, 101, 192'
-@version 1.0.0
+@var  text  Tertiary-Colour   "Tertiary Colour[rrr,ggg,bbb]"    '101, 165, 140'
+@var  text  Quaternary-Colour "Quaternary Colour[rrr,ggg,bbb]"  '33, 45, 65'
+@version 2.0.0
 ==/UserStyle== */
 
 @-moz-document domain("riseselfbot.xyz") {
