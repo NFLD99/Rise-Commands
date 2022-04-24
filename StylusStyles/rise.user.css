@@ -11,7 +11,7 @@
 @var  text  Secondary-Colour  "Secondary Colour[rrr,ggg,bbb]"   '0,0,0'
 @var  text  Tertiary-Colour   "Tertiary Colour[rrr,ggg,bbb]"    '101, 165, 140'
 @var  text  Quaternary-Colour "Quaternary Colour[rrr,ggg,bbb]"  '33, 45, 65'
-@version 2.3.0
+@version 2.4.0
 ==/UserStyle== */
 
 @-moz-document domain("riseselfbot.xyz") {
