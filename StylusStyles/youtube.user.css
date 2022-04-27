@@ -4,11 +4,11 @@
 @name Youtube Themes
 @namespace https://github.com/NFLD99
 @preprocessor default
-@var  text  Bkg               "Page Background"                 'url(https://uploads.nfld99.com/52cPQtD.png)'
-@var  text  Main-Colour       "Main Colour [rrr,ggg,bbb]"       '154, 126, 16'
-@var  text  Secondary-Colour  "Secondary Colour[rrr,ggg,bbb]"   '0,0,0'
-@var  text  Tertiary-Colour   "Tertiary Colour[rrr,ggg,bbb]"    '114, 142, 661'
-@version 2.0.0
+@var  text  Bkg               "Page Background [color | url(link)]"                 'url(https://uploads.nfld99.com/52cPQtD.png)'
+@var  text  Main-Colour       "Main Colour [rrr,ggg,bbb]"                           '154, 126, 16'
+@var  text  Secondary-Colour  "Secondary Colour[rrr,ggg,bbb]"                       '0,0,0'
+@var  text  Tertiary-Colour   "Tertiary Colour[rrr,ggg,bbb]"                        '114, 142, 661'
+@version 2.0.1
 ==/UserStyle== */
 
 @-moz-document domain("youtube.com") {
